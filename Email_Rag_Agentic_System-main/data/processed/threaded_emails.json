@@ -1,0 +1,956 @@
+[
+  {
+    "message_id": "<30922949.1075863688243.JavaMail.evans@thyme>",
+    "date": "Thu, 31 Aug 2000 05:07:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "greg.piper@enron.com",
+    "subject": "Re: Hello",
+    "body": "Let's shoot for Tuesday at 11:45.  ",
+    "thread_id": "T-0001"
+  },
+  {
+    "message_id": "<30965995.1075863688265.JavaMail.evans@thyme>",
+    "date": "Thu, 31 Aug 2000 04:17:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "greg.piper@enron.com",
+    "subject": "Re: Hello",
+    "body": "Greg,\n\n How about either next Tuesday or Thursday?\n\nPhillip",
+    "thread_id": "T-0001"
+  },
+  {
+    "message_id": "<13116875.1075855687561.JavaMail.evans@thyme>",
+    "date": "Mon, 9 Oct 2000 07:16:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Consolidated positions: Issues & To Do list",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 10/09/2000 \n02:16 PM ---------------------------\n\n\nRichard Burchfield\n10/06/2000 06:59 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Beth Perlman/HOU/ECT@ECT \nSubject: Consolidated positions: Issues & To Do list\n\nPhillip,\n Below is the issues & to do list as we go forward with documenting the \nrequirements for consolidated physical/financial positions and transport \ntrade capture. What we need to focus on is the first bullet in Allan's list; \nthe need for a single set of requirements. Although the meeting with Keith, \non Wednesday,  was informative the solution of creating a infinitely dynamic \nconsolidated position screen, will be extremely difficult and time \nconsuming.  Throughout the meeting on Wednesday, Keith alluded to the \ninability to get consensus amongst the traders on the presentation of the \nconsolidated position, so the solution was to make it so that a trader can \narrange the position screen to their liking (much like Excel). What needs to \nhappen on Monday from 3 - 5 is a effort to design a desired layout for the \nconsolidated position screen, this is critical. This does not exclude \nbuilding a capability to create a more flexible position presentation for the \nfuture, but in order to create a plan that can be measured we need firm \nrequirements. Also, to reiterate that the goals of this project is a project \nplan on consolidate physical/financial positions and transport trade capture. \nThe other issues that have been raised will be capture as projects on to \nthemselves, and will need to be prioritised as efforts outside of this \nproject.\n\nI have been involved in most of the meetings and the discussions have been \ngood. I believe there has been good communication between the teams, but now \nwe need to have focus on the objectives we set out to solve.\n\nRichard  \n---------------------- Forwarded by Richard Burchfield/HOU/ECT on 10/06/2000 \n08:34 AM ---------------------------\n\n\nAllan Severude\n10/05/2000 06:03 PM\nTo: Richard Burchfield/HOU/ECT@ECT\ncc: Peggy Alix/HOU/ECT@ECT, Russ Severson/HOU/ECT@ECT, Scott \nMills/HOU/ECT@ECT, Kenny Ha/HOU/ECT@ECT \nSubject: Consolidated positions: Issues & To Do list\n\n\nFrom our initial set of meetings with the traders regarding consolidated \npositions, I think we still have the following issues:\nWe don't have a single point of contact from the trading group.  We've had \nthree meetings which brought out very different issues from different \ntraders.  We really need a single point of contact to help drive the trader \nrequirements and help come to a consensus regarding the requirements.\nWe're getting hit with a lot of different requests, many of which appear to \nbe outside the scope of position consolidation.\n\nThings left to do:\nI think it may be useful to try to formulate a high level project goal to \nmake it as clear as possible what we're trying to accomplish with this \nproject.  It'll help determine which requests fall under the project scope.\nGo through the list of requests to determine which are in scope for this \nproject and which fall out of scope.\nFor those in scope, work to define relative importance (priority) of each and \nwork with traders to define the exact requirements of each.\nDefine the desired lay out of the position manager screen: main view and all \ndrill downs.\nUse the above to formulate a project plan.\n\nThings requested thus far (no particular order):\nInclusion of Sitara physical deals into the TDS position manager and deal \nticker.\nCustomized rows and columns in the position manager (ad hoc rows/columns that \nadd up existing position manager rows/columns).\nNew drill down in the position manager to break out positions by: physical, \ntransport, swaps, options, ...\nAddition of a curve tab to the position manager to show the real-time values \nof all curves on which the desk has a position.\nAbility to split the current position grid to allow daily positions to be \nshown directly above monthly positions.  Each grouped column in the top grid \nwould be tied to a grouped column in the bottom grid.\nAbility to properly show curve shift for float-for-float deals; determine the \nappropriate positions to show for each:\nGas Daily for monthly index,\nPhysical gas for Nymex,\nPhysical gas for Inside Ferc,\nPhysical gas for Mid market.\nAbility for TDS to pull valuation results based on a TDS flag instead of \nusing official valuations.\nPosition and P&L aggregation across all gas desks.\nAbility to include the Gas Price book into TDS:\nInclusion of spread options in our systems.  Ability to handle volatility \nskew and correlations.\nAbility to revalue all options incrementally throughout the trading day.  \nApproximate delta changes between valuations using instantaneous gamma or a \ngamma grid.\nValuation of Gas Daily options.\nA new position screen for options (months x strike x delta).  TBD.\nInclusion of positions for exotic options currently managed in spreadsheets.\nAbility to isolate the position change due to changed deals in the position \nmanager.\nAbility to view change deal P&L in the TDS deal ticker.  Show new deal terms, \nprior deal terms, and net P&L affect of the change.\nEliminate change deals with no economic impact from the TDS deal ticker.\nPosition drill down in the position manager to isolate the impact of \nindividual deals on the position total in a grid cell.\nBenchmark positions in TDS.\nDeployment of TDS in Canada. Currency and volume uom conversions. Implicit \nand explicit position break out issues.\n\n-- Allan.\n\nPS: Colleen is setting up a meeting tomorrow to discuss the direction for \ntransport.  Hopefully we'll know much better where that part stands at that \npoint.\n\n\n\n\n",
+    "thread_id": "T-0002"
+  },
+  {
+    "message_id": "<2707340.1075855687584.JavaMail.evans@thyme>",
+    "date": "Mon, 9 Oct 2000 07:00:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Consolidated positions: Issues & To Do list",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 10/09/2000 \n02:00 PM ---------------------------\n\n\nRichard Burchfield\n10/06/2000 06:59 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Beth Perlman/HOU/ECT@ECT \nSubject: Consolidated positions: Issues & To Do list\n\nPhillip,\n Below is the issues & to do list as we go forward with documenting the \nrequirements for consolidated physical/financial positions and transport \ntrade capture. What we need to focus on is the first bullet in Allan's list; \nthe need for a single set of requirements. Although the meeting with Keith, \non Wednesday,  was informative the solution of creating a infinitely dynamic \nconsolidated position screen, will be extremely difficult and time \nconsuming.  Throughout the meeting on Wednesday, Keith alluded to the \ninability to get consensus amongst the traders on the presentation of the \nconsolidated position, so the solution was to make it so that a trader can \narrange the position screen to their liking (much like Excel). What needs to \nhappen on Monday from 3 - 5 is a effort to design a desired layout for the \nconsolidated position screen, this is critical. This does not exclude \nbuilding a capability to create a more flexible position presentation for the \nfuture, but in order to create a plan that can be measured we need firm \nrequirements. Also, to reiterate that the goals of this project is a project \nplan on consolidate physical/financial positions and transport trade capture. \nThe other issues that have been raised will be capture as projects on to \nthemselves, and will need to be prioritised as efforts outside of this \nproject.\n\nI have been involved in most of the meetings and the discussions have been \ngood. I believe there has been good communication between the teams, but now \nwe need to have focus on the objectives we set out to solve.\n\nRichard  \n---------------------- Forwarded by Richard Burchfield/HOU/ECT on 10/06/2000 \n08:34 AM ---------------------------\n\n\nAllan Severude\n10/05/2000 06:03 PM\nTo: Richard Burchfield/HOU/ECT@ECT\ncc: Peggy Alix/HOU/ECT@ECT, Russ Severson/HOU/ECT@ECT, Scott \nMills/HOU/ECT@ECT, Kenny Ha/HOU/ECT@ECT \nSubject: Consolidated positions: Issues & To Do list\n\n\nFrom our initial set of meetings with the traders regarding consolidated \npositions, I think we still have the following issues:\nWe don't have a single point of contact from the trading group.  We've had \nthree meetings which brought out very different issues from different \ntraders.  We really need a single point of contact to help drive the trader \nrequirements and help come to a consensus regarding the requirements.\nWe're getting hit with a lot of different requests, many of which appear to \nbe outside the scope of position consolidation.\n\nThings left to do:\nI think it may be useful to try to formulate a high level project goal to \nmake it as clear as possible what we're trying to accomplish with this \nproject.  It'll help determine which requests fall under the project scope.\nGo through the list of requests to determine which are in scope for this \nproject and which fall out of scope.\nFor those in scope, work to define relative importance (priority) of each and \nwork with traders to define the exact requirements of each.\nDefine the desired lay out of the position manager screen: main view and all \ndrill downs.\nUse the above to formulate a project plan.\n\nThings requested thus far (no particular order):\nInclusion of Sitara physical deals into the TDS position manager and deal \nticker.\nCustomized rows and columns in the position manager (ad hoc rows/columns that \nadd up existing position manager rows/columns).\nNew drill down in the position manager to break out positions by: physical, \ntransport, swaps, options, ...\nAddition of a curve tab to the position manager to show the real-time values \nof all curves on which the desk has a position.\nAbility to split the current position grid to allow daily positions to be \nshown directly above monthly positions.  Each grouped column in the top grid \nwould be tied to a grouped column in the bottom grid.\nAbility to properly show curve shift for float-for-float deals; determine the \nappropriate positions to show for each:\nGas Daily for monthly index,\nPhysical gas for Nymex,\nPhysical gas for Inside Ferc,\nPhysical gas for Mid market.\nAbility for TDS to pull valuation results based on a TDS flag instead of \nusing official valuations.\nPosition and P&L aggregation across all gas desks.\nAbility to include the Gas Price book into TDS:\nInclusion of spread options in our systems.  Ability to handle volatility \nskew and correlations.\nAbility to revalue all options incrementally throughout the trading day.  \nApproximate delta changes between valuations using instantaneous gamma or a \ngamma grid.\nValuation of Gas Daily options.\nA new position screen for options (months x strike x delta).  TBD.\nInclusion of positions for exotic options currently managed in spreadsheets.\nAbility to isolate the position change due to changed deals in the position \nmanager.\nAbility to view change deal P&L in the TDS deal ticker.  Show new deal terms, \nprior deal terms, and net P&L affect of the change.\nEliminate change deals with no economic impact from the TDS deal ticker.\nPosition drill down in the position manager to isolate the impact of \nindividual deals on the position total in a grid cell.\nBenchmark positions in TDS.\nDeployment of TDS in Canada. Currency and volume uom conversions. Implicit \nand explicit position break out issues.\n\n-- Allan.\n\nPS: Colleen is setting up a meeting tomorrow to discuss the direction for \ntransport.  Hopefully we'll know much better where that part stands at that \npoint.\n\n\n\n\n",
+    "thread_id": "T-0002"
+  },
+  {
+    "message_id": "<15294346.1075855687778.JavaMail.evans@thyme>",
+    "date": "Thu, 28 Sep 2000 06:17:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "lkuch@mh.com",
+    "subject": "San Juan Index",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/28/2000 \n01:09 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Phillip K Allen                           09/28/2000 10:56 AM\n\t\n\n\nLiane,\n\n As we discussed yesterday, I am concerned there may have been an attempt to \nmanipulate the  El Paso San Juan monthly index.  It appears that a single \nbuyer entered the marketplace on both September 26 and 27 and paid above \nmarket prices ($4.70-$4.80) for San Juan gas.  At the time of these trades, \noffers for physical gas at significantly (10 to 15 cents) lower prices were \nbypassed in order to establish higher trades to report into the index \ncalculation.  Additionally, these trades are out of line with the associated \nfinancial swaps for San Juan.\n\n We have compiled a list of financial and physical trades executed from \nSeptember 25 to September 27.  These are the complete list of trades from \nEnron Online (EOL), Enron's direct phone conversations, and three brokerage \nfirms (Amerex, APB, and Prebon).  Please see the attached spreadsheet for a \ntrade by trade list and a summary.  We have also included a summary of gas \ndaily prices to illustrate the value of San Juan based on several spread \nrelationships.  The two key points from this data are as follows:\n\n 1.  The high physical prices on the 26th & 27th (4.75,4,80) are much greater \nthan the high financial trades (4.6375,4.665) on those days. \n\n 2.  The spread relationship between San Juan and other points (Socal & \nNorthwest)  is  consistent between the end of September and \n       October gas daily.  It doesn't make sense to have monthly indices that \nare dramatically different.\n\n\n I understand you review the trades submitted for outliers.  Hopefully, the \ntrades submitted will reveal counterparty names and you will be able to \ndetermine that there was only one buyer in the 4.70's and these trades are \noutliers.  I wanted to give you some additional points of reference to aid in \nestablishing a reasonable index.  It is Enron's belief that the trades at \n$4.70 and higher  were above market trades that should be excluded from the \ncalculation of index.\n\n It is our desire to have reliable and accurate indices against which to \nconduct our physical and financial business.  Please contact me \nanytime I can assist you towards this goal.\n\nSincerely,\n\nPhillip Allen\n\n\n",
+    "thread_id": "T-0003"
+  },
+  {
+    "message_id": "<25140503.1075855687800.JavaMail.evans@thyme>",
+    "date": "Thu, 28 Sep 2000 05:56:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jeffrey.hodge@enron.com",
+    "subject": "San Juan Index",
+    "body": "Liane,\n\n As we discussed yesterday, I am concerned there has been an attempt to \nmanipulate the  El Paso San Juan monthly index.  A single buyer entered the \nmarketplace on both September 26 and 27 and paid above market prices \n($4.70-$4.80) for San Juan gas with the intent to distort the index.  At the \ntime of these trades, offers for physical gas at significantly (10 to 15 \ncents) lower prices were bypassed in order to establish higher trades to \nreport into the index calculation.  Additionally, these trades are out of \nline with the associated financial swaps for San Juan.\n\n We have compiled a list of financial and physical trades executed from \nSeptember 25 to September 27.  These are the complete list of trades from \nEnron Online (EOL), Enron's direct phone conversations, and three brokerage \nfirms (Amerex, APB, and Prebon).  Please see the attached spreadsheet for a \ntrade by trade list and a summary.  We have also included a summary of gas \ndaily prices to illustrate the value of San Juan based on several spread \nrelationships.  The two key points from this data are as follows:\n\n 1.  The high physical prices on the 26th & 27th (4.75,4,80) are much greater \nthan the high financial trades (4.6375,4.665) on those days. \n\n 2.  The spread relationship between San Juan and other points (Socal & \nNorthwest)  is  consistent between the end of September and \n       October gas daily.  It doesn't make sense to have monthly indeces that \nare dramatically different.\n\n\n I understand you review the trades submitted for outliers.  Hopefully, the \ntrades submitted will reveal counterparty names and you will be able to \ndetermine that there was only one buyer in the 4.70's and these trades are \noutliers.  I wanted to give you some additional points of reference to aid in \nestablishing a reasonable index.  It is Enron's belief that the trades at \n$4.70 and higher  were above market trades that should be excluded from the \ncalculation of index.\n\n It is our desire to have reliable and accurate indeces against which to \nconduct our physical and financial business.  Please contact me \nanytime I can assist you towards this goal.\n\nSincerely,\n\nPhillip Allen\n",
+    "thread_id": "T-0003"
+  },
+  {
+    "message_id": "<19034252.1075855687825.JavaMail.evans@thyme>",
+    "date": "Tue, 26 Sep 2000 09:28:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "kholst@enron.com",
+    "subject": "Investment Structure",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/26/2000 \n04:28 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 09/26/2000 01:18:45 PM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <retwell@mail.sanmarcos.net>, \"Claudia L. Crocker\" \n<clclegal2@aol.com> \nSubject: Investment Structure\n\n\nSTRUCTURE:\nTypically the structure is a limited partnership with a corporate (or LLC)\ngeneral partner.  The General Partner owns 1% of the project and carries the\nliability of construction.\n\nLAND OWNERSHIP & LOANS\nThe property would be purchased in the name of the limited partnership and\nany land loans, land improvements loans and construction loans would be in\nthe name of the limited partnership.  Each of the individual investors and\nall of the principals in Creekside would also personally guarantee the\nloans.  If the investor(s) do not sign on the loans, this generally means\nthat a larger amount of cash is required and the investor's share of profits\nis reduced.\n\nAll loans for residential construction, that are intended for re-sale, are\nfull recourse loans.  If we are pursuing multifamily rental developments,\nthe construction loans are still full recourse but the mortgage can often be\nnon-recourse.\n\nUSE OF INITIAL INVESTMENT\nThe initial investment is used for land deposit, engineering &\narchitectural design, soils tests, surveys, filing fees, legal fees for\norganization and condominium association formation,  and appraisals.  Unlike\nmany real estate investment programs, none of the funds are used for fees to\nCreekside Builders, LLC.  These professional expenses will be incurred over\nthe estimated 6 month design and approval period.\n\nEARLY LAND COSTS\nThe $4,000 per month costs listed in the cash flow as part of land cost\nrepresent the extension fees due to the seller for up to 4 months of\nextensions on closing.  As an alternative, we can close into a land loan at\nprobably 70% of appraised value.  With a land value equal to the purchase\nprice of $680,000 this would mean a land loan of $476,000 with estimated\nmonthly interest payments of $3,966, given a 10% annual interest rate, plus\napproximately 1.25% of the loan amount for closing costs and loan fees.\n\nEQUITY AT IMPROVEMENT LOAN\nOnce the site plan is approved by the City of Austin, the City will require\nthe development entity to post funds for fiscal improvements, referred to as\nthe \"fiscals\".  This cost represents a bond for the completion of\nimprovements that COA considers vital and these funds are released once the\nimprovements have been completed and accepted by COA.  This release will be\nfor 90% of the cost with the remaining 10% released one year after\ncompletion.  Releases can be granted once every 90 days and you should\nexpect that the release would occur 6 months after the start of lot\nimprovement construction.  These fiscals are usually posted in cash or an\nirrevocable letter of credit.  As such, they have to be counted as a\ndevelopment cost, even though they are not spent.  Because they are not\nspent no interest is charged on these funds.\n\nThe lot improvement loan is typically 75% of the appraised value of a\nfinished lot, which I suspect will be at least $20,000 and potentially as\nhigh as $25,000.  This would produce a loan amount of  $15,000 on $20,000\nper lot.  With estimated per lot improvement costs of $9,000, 'fiscals' at\n$2,000 and the land cost at $8,000 , total improved lot cost is $19,000\nwhich means $0 to $4,000 per lot in total equity.  The investment prior to\nobtaining the improvement loan would count towards any equity requirement\nprovided it was for direct costs.  Thus, the additional equity for the\nimprovement loan would be $0-$184,000.   Even if the maximum loan would\ncover all costs, it is unlikely the bank would allow reimbursement of funds\nspent. The higher estimates of equity investments are shown in the\npreliminary proforma to be on the safe side.  The engineer is preparing a\ntentative site layout with an initial evaluation of the phasing, which can\nsignificantly reduce the cash equity requirement.\n\nPhasing works as follows.  If the first phase was say 40 units, the total\nlot improvement cost might average $31,000 per lot.   Of this, probably\n$13,000 would be for improvements and $19,000 for the land cost.  The\nimprovements are higher to cover large one time up front costs for design\ncosts, the entry road, water treatment costs, perimeter fencing and\nlandscaping, and so on, as well as for 100% of the land.  The land loan for\nundeveloped lots would be 70% of the appraised raw lot value, which I would\nestimate as $10,000 per lot for a loan value of $7,000 per lot.  Then the\nloan value for each improved lot would be $15,000 per lot.  This would give\nyou a total loan of $992,000, total cost of $1,232,645 for equity required\nof $241,000.  This was not presented in the initial analysis as the phasing\nis depended on a more careful assessment by the Civil Engineer as the\nseparate phases must each be able to stand on its own from a utility\nstandpoint.\n\nCONSTRUCTION LOANS\nThere are three types of  construction loans.  First, is a speculative\n(spec) loan that is taken out prior to any pre-sales activity.  Second,  is\na construction loan for a pre-sold unit, but the loan remains in the\nbuilder/developers name.  Third, is a pre-sold unit with the construction\nloan in the name of the buyer.  We expect to have up to 8 spec loans to\nstart the project and expect all other loans to be pre-sold units with loans\nin the name of the builder/developer.  We do not expect to have any\nconstruction loans in the name of the buyers, as such loans are too\ndifficult to manage and please new buyers unfamiliar with the process.\n\nSpec loans will be for 70% to 75% of value and construction loans for\npre-sold units, if the construction loan is from the mortgage lender,  will\nbe from 80% to 95% of value.\n\nDISBURSEMENTS\nDisbursements will be handled by the General Partner to cover current and\nnear term third party costs, then to necessary reserves, then to priority\npayments and then to the partners per the agreement.  The General Partner\nwill contract with Creekside Builders, LLC to construct the units and the\nfee to CB will include a construction management and overhead fee equal to\n15% of the direct hard cost excluding land, financing and sales costs.\nThese fees are the only monies to Creekside, Larry Lewter or myself prior to\ncalculation of profit, except for a) direct reimbursement for partnership\nexpenses and b) direct payment to CB for any subcontractor costs that it has\nto perform.  For example, if CB cannot find a good trim carpenter sub, or\ncannot find enough trim carpenters, etc., and it decides to undertake this\nfunction, it will charge the partnership the same fee it was able to obtain\nfrom third parties and will disclose those cases to the partnership.\nFinally, CB will receive a fee for the use of any of its equipment if it is\nused in lieu of leasing equipment from others.  At present CB does not own\nany significant equipment, but it is considering the purchase of a sky track\nto facilitate and speed up framing, cornice, roofing and drywall spreading.\n\nREPORTING\nWe are more than willing to provide reports to track expenses vs. plan.\nWhat did you have in mind?  I would like to use some form of internet based\nreporting.\n\nBOOKKEEPING\nI am not sure what you are referring to by the question, \"Bookkeeping\nprocedures to record actual expenses?\"  Please expand.\n\nINVESTOR INPUT\nWe are glad to have the investor's input on design and materials.  As always\nthe question will be who has final say if there is disagreement, but in my\nexperience I have always been able to reach consensus. As you, and I presume\nKeith, want to be involved to learn as much as possible we would make every\neffort to be accommodating.\n\nCREEKSIDE PROCEEDURES\nCB procedures for dealing with subs, vendors and professionals is not as\nformal as your question indicates.  In the EXTREMELY tight labor market\nobtaining 3 bids for each labor trade is not feasible.  For the professional\nsubs we use those with whom we have developed a previous rapport.  Finally,\nfor vendors they are constantly shopped.\n\nPRE-SELECTED PROFESSIONALS, SUBS AND VENDORS\nYes there are many different subs that have been identified and I can\nprovide these if you are interested.\n\nI know I have not answered everything, but this is a starting point.  Call\nwhen you have reviewed and we can discuss further.\n\nSincerely,\n\nGeorge Richards\nPresident, Creekside Builders, LLC\n\n\n\n\n - winmail.dat\n",
+    "thread_id": "T-0004"
+  },
+  {
+    "message_id": "<719350.1075855687850.JavaMail.evans@thyme>",
+    "date": "Tue, 26 Sep 2000 09:26:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Investment Structure",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/26/2000 \n04:26 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 09/26/2000 01:18:45 PM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <retwell@mail.sanmarcos.net>, \"Claudia L. Crocker\" \n<clclegal2@aol.com> \nSubject: Investment Structure\n\n\nSTRUCTURE:\nTypically the structure is a limited partnership with a corporate (or LLC)\ngeneral partner.  The General Partner owns 1% of the project and carries the\nliability of construction.\n\nLAND OWNERSHIP & LOANS\nThe property would be purchased in the name of the limited partnership and\nany land loans, land improvements loans and construction loans would be in\nthe name of the limited partnership.  Each of the individual investors and\nall of the principals in Creekside would also personally guarantee the\nloans.  If the investor(s) do not sign on the loans, this generally means\nthat a larger amount of cash is required and the investor's share of profits\nis reduced.\n\nAll loans for residential construction, that are intended for re-sale, are\nfull recourse loans.  If we are pursuing multifamily rental developments,\nthe construction loans are still full recourse but the mortgage can often be\nnon-recourse.\n\nUSE OF INITIAL INVESTMENT\nThe initial investment is used for land deposit, engineering &\narchitectural design, soils tests, surveys, filing fees, legal fees for\norganization and condominium association formation,  and appraisals.  Unlike\nmany real estate investment programs, none of the funds are used for fees to\nCreekside Builders, LLC.  These professional expenses will be incurred over\nthe estimated 6 month design and approval period.\n\nEARLY LAND COSTS\nThe $4,000 per month costs listed in the cash flow as part of land cost\nrepresent the extension fees due to the seller for up to 4 months of\nextensions on closing.  As an alternative, we can close into a land loan at\nprobably 70% of appraised value.  With a land value equal to the purchase\nprice of $680,000 this would mean a land loan of $476,000 with estimated\nmonthly interest payments of $3,966, given a 10% annual interest rate, plus\napproximately 1.25% of the loan amount for closing costs and loan fees.\n\nEQUITY AT IMPROVEMENT LOAN\nOnce the site plan is approved by the City of Austin, the City will require\nthe development entity to post funds for fiscal improvements, referred to as\nthe \"fiscals\".  This cost represents a bond for the completion of\nimprovements that COA considers vital and these funds are released once the\nimprovements have been completed and accepted by COA.  This release will be\nfor 90% of the cost with the remaining 10% released one year after\ncompletion.  Releases can be granted once every 90 days and you should\nexpect that the release would occur 6 months after the start of lot\nimprovement construction.  These fiscals are usually posted in cash or an\nirrevocable letter of credit.  As such, they have to be counted as a\ndevelopment cost, even though they are not spent.  Because they are not\nspent no interest is charged on these funds.\n\nThe lot improvement loan is typically 75% of the appraised value of a\nfinished lot, which I suspect will be at least $20,000 and potentially as\nhigh as $25,000.  This would produce a loan amount of  $15,000 on $20,000\nper lot.  With estimated per lot improvement costs of $9,000, 'fiscals' at\n$2,000 and the land cost at $8,000 , total improved lot cost is $19,000\nwhich means $0 to $4,000 per lot in total equity.  The investment prior to\nobtaining the improvement loan would count towards any equity requirement\nprovided it was for direct costs.  Thus, the additional equity for the\nimprovement loan would be $0-$184,000.   Even if the maximum loan would\ncover all costs, it is unlikely the bank would allow reimbursement of funds\nspent. The higher estimates of equity investments are shown in the\npreliminary proforma to be on the safe side.  The engineer is preparing a\ntentative site layout with an initial evaluation of the phasing, which can\nsignificantly reduce the cash equity requirement.\n\nPhasing works as follows.  If the first phase was say 40 units, the total\nlot improvement cost might average $31,000 per lot.   Of this, probably\n$13,000 would be for improvements and $19,000 for the land cost.  The\nimprovements are higher to cover large one time up front costs for design\ncosts, the entry road, water treatment costs, perimeter fencing and\nlandscaping, and so on, as well as for 100% of the land.  The land loan for\nundeveloped lots would be 70% of the appraised raw lot value, which I would\nestimate as $10,000 per lot for a loan value of $7,000 per lot.  Then the\nloan value for each improved lot would be $15,000 per lot.  This would give\nyou a total loan of $992,000, total cost of $1,232,645 for equity required\nof $241,000.  This was not presented in the initial analysis as the phasing\nis depended on a more careful assessment by the Civil Engineer as the\nseparate phases must each be able to stand on its own from a utility\nstandpoint.\n\nCONSTRUCTION LOANS\nThere are three types of  construction loans.  First, is a speculative\n(spec) loan that is taken out prior to any pre-sales activity.  Second,  is\na construction loan for a pre-sold unit, but the loan remains in the\nbuilder/developers name.  Third, is a pre-sold unit with the construction\nloan in the name of the buyer.  We expect to have up to 8 spec loans to\nstart the project and expect all other loans to be pre-sold units with loans\nin the name of the builder/developer.  We do not expect to have any\nconstruction loans in the name of the buyers, as such loans are too\ndifficult to manage and please new buyers unfamiliar with the process.\n\nSpec loans will be for 70% to 75% of value and construction loans for\npre-sold units, if the construction loan is from the mortgage lender,  will\nbe from 80% to 95% of value.\n\nDISBURSEMENTS\nDisbursements will be handled by the General Partner to cover current and\nnear term third party costs, then to necessary reserves, then to priority\npayments and then to the partners per the agreement.  The General Partner\nwill contract with Creekside Builders, LLC to construct the units and the\nfee to CB will include a construction management and overhead fee equal to\n15% of the direct hard cost excluding land, financing and sales costs.\nThese fees are the only monies to Creekside, Larry Lewter or myself prior to\ncalculation of profit, except for a) direct reimbursement for partnership\nexpenses and b) direct payment to CB for any subcontractor costs that it has\nto perform.  For example, if CB cannot find a good trim carpenter sub, or\ncannot find enough trim carpenters, etc., and it decides to undertake this\nfunction, it will charge the partnership the same fee it was able to obtain\nfrom third parties and will disclose those cases to the partnership.\nFinally, CB will receive a fee for the use of any of its equipment if it is\nused in lieu of leasing equipment from others.  At present CB does not own\nany significant equipment, but it is considering the purchase of a sky track\nto facilitate and speed up framing, cornice, roofing and drywall spreading.\n\nREPORTING\nWe are more than willing to provide reports to track expenses vs. plan.\nWhat did you have in mind?  I would like to use some form of internet based\nreporting.\n\nBOOKKEEPING\nI am not sure what you are referring to by the question, \"Bookkeeping\nprocedures to record actual expenses?\"  Please expand.\n\nINVESTOR INPUT\nWe are glad to have the investor's input on design and materials.  As always\nthe question will be who has final say if there is disagreement, but in my\nexperience I have always been able to reach consensus. As you, and I presume\nKeith, want to be involved to learn as much as possible we would make every\neffort to be accommodating.\n\nCREEKSIDE PROCEEDURES\nCB procedures for dealing with subs, vendors and professionals is not as\nformal as your question indicates.  In the EXTREMELY tight labor market\nobtaining 3 bids for each labor trade is not feasible.  For the professional\nsubs we use those with whom we have developed a previous rapport.  Finally,\nfor vendors they are constantly shopped.\n\nPRE-SELECTED PROFESSIONALS, SUBS AND VENDORS\nYes there are many different subs that have been identified and I can\nprovide these if you are interested.\n\nI know I have not answered everything, but this is a starting point.  Call\nwhen you have reviewed and we can discuss further.\n\nSincerely,\n\nGeorge Richards\nPresident, Creekside Builders, LLC\n\n\n\n\n - winmail.dat\n",
+    "thread_id": "T-0004"
+  },
+  {
+    "message_id": "<32280829.1075855688139.JavaMail.evans@thyme>",
+    "date": "Tue, 19 Sep 2000 09:35:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Westgate Proforma-Phillip Allen.xls",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/19/2000 \n04:35 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 09/08/2000 05:21:49 AM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <retwell@mail.sanmarcos.net> \nSubject: Westgate Proforma-Phillip Allen.xls\n\n\nEnclosed is the preliminary proforma for the Westgate property is Austin\nthat we told you about.  As you can tell from the proforma this project\nshould produce a truly exceptional return of over 40% per year over 3 years.\nThis is especially attractive when the project is in a market as strong as\nAustin and we are introducing new product that in a very low price range for\nthis market.  This is the best project in terms of risk and reward that we\nhave uncovered to date in the Austin market.\nThe project does have approved zoning and will only require a site plan.  As\nit is in the \"Smart Growth Corridor\" area designated by the City of Austin\nfor preferred development, this will be fast tracked and should be complete\nin less than 6 months.  Additionally, many of the current and more severe\nwater treatment ordinances have been waived.  I have estimated the lot\nimprovement costs based on a 28 lot development we investigated in North\nAustin, which included a detention/retention and filtration pond and street\nwidening.  Even though this property is not likely to require street\nwidening and will have less of a detention/retention and filtration pond\nrequirement, I used this data to be cautious.\n The Lone Star gas line easement in the lower portion of the property is not\nexpected to impact sales significantly.  Other projects have been quite\nsuccessful with identical relationships to this pipeline, such as the\nadjoining single family residential and a project at St. Edwards University.\nAs with most infill projects, the quality of the surrounding neighborhoods\nis uneven.  We have included a fence around the entire property, but may\nonly put it on Westgate and Cameron Loop.  Gated communities are far\npreferred so this is a good idea for both screening and current buyer\npreferences.\nThe seller accepted our offer Thursday evening with a price of $680,000 and\nan extended escrow.  This will enable us to probably obtain an approved site\nplan before closing on the contract, which will mean that we can close into\nan A&D Loan rather than into a land loan and then an improvement loan.\nThis analysis shows your investment at $700,000 for a 50% interest in the\nprofits of the project.  As we discussed in San Marcos, we can also discuss\nhaving you invest only in the lots, sell the lots to the construction entity\nwith your profit in the lot.  I believe this would facilitate the use of a\n1031 Exchange of the proceeds from this deal into another project that is a\nrental deal or at least into the land for a rental project that would then\nbe the equity for that project.  You would need to discuss this with an\nexchange expert first.  Larry Lewter knows an expert in the field in San\nAntonio if you do not know anyone.\nI will send you a package on the property that was prepared by the broker,\nby Airborne Express today for Saturday delivery.\nOnce you have read the package and reviewed this proforma, we would want to\nschedule a tour of the site and the area.  Please get back to me as soon as\nyour schedule permits regarding the site visit and feel free to call at any\ntime.  You can reach me over the weekend and in the evening at either\n512-338-1119 or 512-338-1110.  My cell phone is 512-748-7495 and the fax is\n512-338-1103.   I look forward to hearing from you and to working with you\non this project that is sure to be a major winner.\nI regret that it took so long to get back to you, but we had some unusual\nevents these past few weeks.  A small freakish wind storm with severe 60+mpg\ndowndrafts hit the South part of Austin where we are building 10 town homes.\nOne of these units had just had the roof decked with the siding scheduled to\nstart the next day.  The severe downdraft hitting the decked roof was enough\nto knock it down.  The City shut down the project for a week and it took\nanother week to get every thing back on tract.  Then last week I had to take\nmy wife  to emergency.  She has a bulge in the material between the vertebra\nin her spine and it causes her extreme pain and has kept her bedridden this\npast week..  There is nothing like having your wife incapacitated to realize\nthe enormous number of things she does everyday.   Fortunately, it looks as\nif she will be ok in the long run.\nGeorge W. Richards\nCreekside Builders, LLC\n\n\n - Westgate Proforma-Phillip Allen.xls\n",
+    "thread_id": "T-0005"
+  },
+  {
+    "message_id": "<2751799.1075855688335.JavaMail.evans@thyme>",
+    "date": "Mon, 11 Sep 2000 09:57:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Westgate Proforma-Phillip Allen.xls",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/11/2000 \n04:57 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 09/08/2000 05:21:49 AM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <retwell@mail.sanmarcos.net> \nSubject: Westgate Proforma-Phillip Allen.xls\n\n\nEnclosed is the preliminary proforma for the Westgate property is Austin\nthat we told you about.  As you can tell from the proforma this project\nshould produce a truly exceptional return of over 40% per year over 3 years.\nThis is especially attractive when the project is in a market as strong as\nAustin and we are introducing new product that in a very low price range for\nthis market.  This is the best project in terms of risk and reward that we\nhave uncovered to date in the Austin market.\nThe project does have approved zoning and will only require a site plan.  As\nit is in the \"Smart Growth Corridor\" area designated by the City of Austin\nfor preferred development, this will be fast tracked and should be complete\nin less than 6 months.  Additionally, many of the current and more severe\nwater treatment ordinances have been waived.  I have estimated the lot\nimprovement costs based on a 28 lot development we investigated in North\nAustin, which included a detention/retention and filtration pond and street\nwidening.  Even though this property is not likely to require street\nwidening and will have less of a detention/retention and filtration pond\nrequirement, I used this data to be cautious.\n The Lone Star gas line easement in the lower portion of the property is not\nexpected to impact sales significantly.  Other projects have been quite\nsuccessful with identical relationships to this pipeline, such as the\nadjoining single family residential and a project at St. Edwards University.\nAs with most infill projects, the quality of the surrounding neighborhoods\nis uneven.  We have included a fence around the entire property, but may\nonly put it on Westgate and Cameron Loop.  Gated communities are far\npreferred so this is a good idea for both screening and current buyer\npreferences.\nThe seller accepted our offer Thursday evening with a price of $680,000 and\nan extended escrow.  This will enable us to probably obtain an approved site\nplan before closing on the contract, which will mean that we can close into\nan A&D Loan rather than into a land loan and then an improvement loan.\nThis analysis shows your investment at $700,000 for a 50% interest in the\nprofits of the project.  As we discussed in San Marcos, we can also discuss\nhaving you invest only in the lots, sell the lots to the construction entity\nwith your profit in the lot.  I believe this would facilitate the use of a\n1031 Exchange of the proceeds from this deal into another project that is a\nrental deal or at least into the land for a rental project that would then\nbe the equity for that project.  You would need to discuss this with an\nexchange expert first.  Larry Lewter knows an expert in the field in San\nAntonio if you do not know anyone.\nI will send you a package on the property that was prepared by the broker,\nby Airborne Express today for Saturday delivery.\nOnce you have read the package and reviewed this proforma, we would want to\nschedule a tour of the site and the area.  Please get back to me as soon as\nyour schedule permits regarding the site visit and feel free to call at any\ntime.  You can reach me over the weekend and in the evening at either\n512-338-1119 or 512-338-1110.  My cell phone is 512-748-7495 and the fax is\n512-338-1103.   I look forward to hearing from you and to working with you\non this project that is sure to be a major winner.\nI regret that it took so long to get back to you, but we had some unusual\nevents these past few weeks.  A small freakish wind storm with severe 60+mpg\ndowndrafts hit the South part of Austin where we are building 10 town homes.\nOne of these units had just had the roof decked with the siding scheduled to\nstart the next day.  The severe downdraft hitting the decked roof was enough\nto knock it down.  The City shut down the project for a week and it took\nanother week to get every thing back on tract.  Then last week I had to take\nmy wife  to emergency.  She has a bulge in the material between the vertebra\nin her spine and it causes her extreme pain and has kept her bedridden this\npast week..  There is nothing like having your wife incapacitated to realize\nthe enormous number of things she does everyday.   Fortunately, it looks as\nif she will be ok in the long run.\nGeorge W. Richards\nCreekside Builders, LLC\n\n\n - Westgate Proforma-Phillip Allen.xls\n",
+    "thread_id": "T-0005"
+  },
+  {
+    "message_id": "<20163768.1075855688465.JavaMail.evans@thyme>",
+    "date": "Fri, 8 Sep 2000 05:29:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Westgate Proforma-Phillip Allen.xls",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/08/2000 \n12:28 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 09/08/2000 05:21:49 AM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <retwell@mail.sanmarcos.net> \nSubject: Westgate Proforma-Phillip Allen.xls\n\n\nEnclosed is the preliminary proforma for the Westgate property is Austin\nthat we told you about.  As you can tell from the proforma this project\nshould produce a truly exceptional return of over 40% per year over 3 years.\nThis is especially attractive when the project is in a market as strong as\nAustin and we are introducing new product that in a very low price range for\nthis market.  This is the best project in terms of risk and reward that we\nhave uncovered to date in the Austin market.\nThe project does have approved zoning and will only require a site plan.  As\nit is in the \"Smart Growth Corridor\" area designated by the City of Austin\nfor preferred development, this will be fast tracked and should be complete\nin less than 6 months.  Additionally, many of the current and more severe\nwater treatment ordinances have been waived.  I have estimated the lot\nimprovement costs based on a 28 lot development we investigated in North\nAustin, which included a detention/retention and filtration pond and street\nwidening.  Even though this property is not likely to require street\nwidening and will have less of a detention/retention and filtration pond\nrequirement, I used this data to be cautious.\n The Lone Star gas line easement in the lower portion of the property is not\nexpected to impact sales significantly.  Other projects have been quite\nsuccessful with identical relationships to this pipeline, such as the\nadjoining single family residential and a project at St. Edwards University.\nAs with most infill projects, the quality of the surrounding neighborhoods\nis uneven.  We have included a fence around the entire property, but may\nonly put it on Westgate and Cameron Loop.  Gated communities are far\npreferred so this is a good idea for both screening and current buyer\npreferences.\nThe seller accepted our offer Thursday evening with a price of $680,000 and\nan extended escrow.  This will enable us to probably obtain an approved site\nplan before closing on the contract, which will mean that we can close into\nan A&D Loan rather than into a land loan and then an improvement loan.\nThis analysis shows your investment at $700,000 for a 50% interest in the\nprofits of the project.  As we discussed in San Marcos, we can also discuss\nhaving you invest only in the lots, sell the lots to the construction entity\nwith your profit in the lot.  I believe this would facilitate the use of a\n1031 Exchange of the proceeds from this deal into another project that is a\nrental deal or at least into the land for a rental project that would then\nbe the equity for that project.  You would need to discuss this with an\nexchange expert first.  Larry Lewter knows an expert in the field in San\nAntonio if you do not know anyone.\nI will send you a package on the property that was prepared by the broker,\nby Airborne Express today for Saturday delivery.\nOnce you have read the package and reviewed this proforma, we would want to\nschedule a tour of the site and the area.  Please get back to me as soon as\nyour schedule permits regarding the site visit and feel free to call at any\ntime.  You can reach me over the weekend and in the evening at either\n512-338-1119 or 512-338-1110.  My cell phone is 512-748-7495 and the fax is\n512-338-1103.   I look forward to hearing from you and to working with you\non this project that is sure to be a major winner.\nI regret that it took so long to get back to you, but we had some unusual\nevents these past few weeks.  A small freakish wind storm with severe 60+mpg\ndowndrafts hit the South part of Austin where we are building 10 town homes.\nOne of these units had just had the roof decked with the siding scheduled to\nstart the next day.  The severe downdraft hitting the decked roof was enough\nto knock it down.  The City shut down the project for a week and it took\nanother week to get every thing back on tract.  Then last week I had to take\nmy wife  to emergency.  She has a bulge in the material between the vertebra\nin her spine and it causes her extreme pain and has kept her bedridden this\npast week..  There is nothing like having your wife incapacitated to realize\nthe enormous number of things she does everyday.   Fortunately, it looks as\nif she will be ok in the long run.\nGeorge W. Richards\nCreekside Builders, LLC\n\n\n - Westgate Proforma-Phillip Allen.xls\n",
+    "thread_id": "T-0005"
+  },
+  {
+    "message_id": "<27936946.1075855378542.JavaMail.evans@thyme>",
+    "date": "Wed, 2 May 2001 10:27:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "tori.kuykendall@enron.com",
+    "subject": "Re: 2- SURVEY - PHILLIP ALLEN",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/02/2001 05:26 AM ---------------------------\n\n\nIna Rangel\n05/01/2001 12:24 PM\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\t \nSubject:\tRe: 2- SURVEY - PHILLIP ALLEN   \n\n\n\n\n   \n-\nFull Name:        Phillip Allen\n\nLogin ID:  \tpallen\n\nExtension:  3-7041\n\nOffice Location:  EB3210C\n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)  Both\n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, Jornada)  IPAQ\n\nDo you have permission to access anyone's Email/Calendar?  NO\n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?  YES\n    If yes, who?  INA RANGEL\n\nAre you responsible for updating anyone else's address book?  \n    If yes, who?  NO\n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  NO\n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  YES, West Calendar\n\nDo you have any Distribution Groups that Messaging maintains for you (for mass mailings)?  \n    If yes, please list here:  NO\n\nPlease list all Notes databases applications that you currently use:  NONE\n\nIn our efforts to plan the exact date/time of your migration, we also will need to know:\n\nWhat are your normal work hours?  From:     7:00 AM To:      5:00 PM\n\nWill you be out of the office in the near future for vacation, leave, etc? NO\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n\n\n\n\n\n\n\n\n<Embedded StdOleLink>",
+    "thread_id": "T-0006"
+  },
+  {
+    "message_id": "<10924670.1075855723920.JavaMail.evans@thyme>",
+    "date": "Tue, 1 May 2001 22:27:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "tori.kuykendall@enron.com",
+    "subject": "Re: 2- SURVEY - PHILLIP ALLEN",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/02/2001 \n05:26 AM ---------------------------\n\n\nIna Rangel\n05/01/2001 12:24 PM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Re: 2- SURVEY - PHILLIP ALLEN  \n\n\n\n\n   \n-\nFull Name:        Phillip Allen\n\nLogin ID:   pallen\n\nExtension:  3-7041\n\nOffice Location:  EB3210C\n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)  Both\n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, \nJornada)  IPAQ\n\nDo you have permission to access anyone's Email/Calendar?  NO\n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?  YES\n    If yes, who?  INA RANGEL\n\nAre you responsible for updating anyone else's address book?  \n    If yes, who?  NO\n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  NO\n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  YES, West Calendar\n\nDo you have any Distribution Groups that Messaging maintains for you (for \nmass mailings)?  \n    If yes, please list here:  NO\n\nPlease list all Notes databases applications that you currently use:  NONE\n\nIn our efforts to plan the exact date/time of your migration, we also will \nneed to know:\n\nWhat are your normal work hours?  From:     7:00 AM To:      5:00 PM\n\nWill you be out of the office in the near future for vacation, leave, etc? NO\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n\n\n\n\n\n",
+    "thread_id": "T-0006"
+  },
+  {
+    "message_id": "<9093068.1075855378565.JavaMail.evans@thyme>",
+    "date": "Tue, 1 May 2001 17:14:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "4-URGENT - OWA Please print this now.",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/01/2001 02:14 PM ---------------------------\n\n\nOutlook Migration Team@ENRON\n04/27/2001 01:01 PM\nTo:\tAllison Horton/NA/Enron@ENRON, Amir Baig/NA/Enron@ENRON, Brandon Bangerter/NA/Enron@Enron, Brian Ellis/Corp/Enron@Enron, Charles Philpott/HR/Corp/Enron@ENRON, Chris P Wood/NA/Enron@Enron, Chris Tull/HOU/ECT@ECT, Dale Smith/Corp/Enron@ENRON, Dave June/NA/Enron@ENRON, Donald Sutton/NA/Enron@Enron, Felicia Buenrostro/HR/Corp/Enron@ENRON, Johnna Morrison/Corp/Enron@ENRON, Joe Dorn/Corp/Enron@ENRON, Kathryn Schultea/HR/Corp/Enron@ENRON, Leon McDowell/NA/Enron@ENRON, Leticia Barrios/Corp/Enron@ENRON, Milton Brown/HR/Corp/Enron@ENRON, Raj Perubhatla/Corp/Enron@Enron, Shekar Komatireddy/NA/Enron@Enron, Andrea Yowman/Corp/Enron@ENRON, Angie O'Brian/HR/Corp/Enron@ENRON, Bonne Castellano/HR/Corp/Enron@ENRON, Gwynn Gorsuch/NA/Enron@ENRON, Jo Ann Matson/Corp/Enron@ENRON, LaQuitta Washington/HR/Corp/Enron@ENRON, Rick Johnson/HR/Corp/Enron@ENRON, Sandra Lighthill/HR/Corp/Enron@ENRON, Valeria A Hope/HOU/ECT@ECT, Charlotte Brown/HR/Corp/Enron@ENRON, Ronald Fain/HR/Corp/Enron@ENRON, Gary Fitch/HR/Corp/Enron@Enron, Anna Harris/HR/Corp/Enron@ENRON, Keith Jones/HR/Corp/Enron@ENRON, Kristi Monson/NA/Enron@Enron, Bobbie McNiel/HR/Corp/Enron@ENRON, John Stabler/HR/Corp/Enron@ENRON, Michelle Prince/NA/Enron@Enron, James Gramke/NA/Enron@ENRON, Blair Hicks/NA/Enron@ENRON, Jennifer Johnson/Contractor/Enron Communications@Enron Communications, Jim Little/Enron@EnronXGate, Dale Lukert/NA/Enron@ENRON, Donald Martin/NA/Enron@ENRON, Andrew Mattei/NA/Enron@ENRON, Darvin Mitchell/NA/Enron@ENRON, Mark Oldham/NA/Enron@ENRON, Wesley Pearson/NA/Enron@ENRON, Ramon Pizarro/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Natalie Rau/NA/Enron@ENRON, William Redick/NA/Enron@ENRON, Mark A Richardson/NA/Enron@ENRON, Joseph Schnieders/NA/Enron@ENRON, Gary Simmons/NA/Enron@Enron, Delaney Trimble/NA/Enron@ENRON, David Upton/NA/Enron@ENRON, Mike Boegler/HR/Corp/Enron@ENRON, Lyndel Click/HR/Corp/Enron@ENRON, Gabriel Franco/NA/Enron@Enron, Randy Gross/HR/Corp/Enron@Enron, Arthur Johnson/HR/Corp/Enron@Enron, Danny Jones/HR/Corp/Enron@ENRON, John Ogden/Houston/Eott@Eott, Edgar Ponce/NA/Enron@Enron, Tracy Pursifull/HR/Corp/Enron@ENRON, Lance Stanley/HR/Corp/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M Tholt/HOU/ECT@ECT, Jay Reitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Matthew Lenhart/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Monique Sanchez/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, Tori Kuykendall/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne Wukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike Potter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne Calcagno/NA/Enron@Enron, Alvin Thompson/Corp/Enron@Enron, Cynthia Franklin/Corp/Enron@ENRON, Jesse Villarreal/HOU/ECT@ECT, Joan Collins/HOU/EES@EES, Joe A Casas/HOU/ECT@ECT, Kelly Loocke/ENRON@enronXgate, Lia Halstead/NA/Enron@ENRON, Meredith Homco/HOU/ECT@ECT, Robert Allwein/HOU/ECT@ECT, Scott Loving/NA/Enron@ENRON, Shanna Boudreaux/ENRON@enronXgate, Steve Gillespie/Corp/Enron@ENRON, Tamara Carter/NA/Enron@ENRON, Tracy Wood/NA/Enron@ENRON, Gabriel Fuzat/Enron Communications@Enron Communications, Jack Netek/Enron Communications@Enron Communications, Lam Nguyen/NA/Enron@Enron, Camille Gerard/Corp/Enron@ENRON, Craig Taylor/HOU/ECT@ECT, Jessica Hangach/NYC/MGUSA@MGUSA, Kathy Gagel/NYC/MGUSA@MGUSA, Lisa Goulart/NYC/MGUSA@MGUSA, Ruth Balladares/NYC/MGUSA@MGUSA, Sid Strutt/NYC/MGUSA@MGUSA\ncc:\t \nSubject:\t4-URGENT - OWA Please print this now.\n\n\nCurrent Notes User:\n\nREASONS FOR USING OUTLOOK WEB ACCESS (OWA)\n\n1. Once your mailbox has been migrated from Notes to Outlook, the Outlook client will be configured on your computer.\nAfter migration of your mailbox, you will not be able to send or recieve mail via Notes, and you will not be able to start using Outlook until it is configured by the Outlook Migration team the morning after your mailbox is migrated.  During this period, you can use Outlook Web Access (OWA) via your web browser (Internet Explorer 5.0) to read and send mail.\n\nPLEASE NOTE:  Your calendar entries, personal address book, journals, and To-Do entries imported from Notes will not be available until the Outlook client is configured on your desktop.\n\n2. Remote access to your mailbox.\nAfter your Outlook client is configured, you can use Outlook Web Access (OWA) for remote access to your mailbox.\n\nPLEASE NOTE:  At this time, the OWA client is only accessible while connecting to the Enron network (LAN).  There are future plans to make OWA available from your home or when traveling abroad.\n\nHOW TO ACCESS OUTLOOK WEB ACCESS (OWA)\n\nLaunch Internet Explorer 5.0, and in the address window type:  http://nahou-msowa01p/exchange/john.doe\n\nSubstitute \"john.doe\" with your first and last name, then click ENTER.  You will be prompted with a sign in box as shown below.  Type in \"corp/your user id\" for the user name and your NT password to logon to OWA and click OK.  You will now be able to view your mailbox.\n\n\t\n\nPLEASE NOTE:  There are some subtle differences in the functionality between the Outlook and OWA clients.  You will not be able to do many of the things in OWA that you can do in Outlook.  Below is a brief list of *some* of the functions NOT available via OWA:\n\nFeatures NOT available using OWA:\n\n-  Tasks\n-  Journal\n-  Spell Checker\n-  Offline Use\n-  Printing Templates\n-  Reminders\n-  Timed Delivery\n-  Expiration\n-  Outlook Rules\n-  Voting, Message Flags and Message Recall\n-  Sharing Contacts with others\n-  Task Delegation\n-  Direct Resource Booking\n-  Personal Distribution Lists\n\nQUESTIONS OR CONCERNS?\n\nIf you have questions or concerns using the OWA client, please contact the Outlook 2000 question and answer Mailbox at:\n\n\tOutlook.2000@enron.com\n\nOtherwise, you may contact the Resolution Center at:\n\n\t713-853-1411\n\nThank you,\n\nOutlook 2000 Migration Team\n",
+    "thread_id": "T-0007"
+  },
+  {
+    "message_id": "<1090527.1075855723944.JavaMail.evans@thyme>",
+    "date": "Tue, 1 May 2001 07:14:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "4-URGENT - OWA Please print this now.",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/01/2001 \n02:14 PM ---------------------------\n\n\nOutlook Migration Team@ENRON\n04/27/2001 01:01 PM\nTo: Allison Horton/NA/Enron@ENRON, Amir Baig/NA/Enron@ENRON, Brandon \nBangerter/NA/Enron@Enron, Brian Ellis/Corp/Enron@Enron, Charles \nPhilpott/HR/Corp/Enron@ENRON, Chris P Wood/NA/Enron@Enron, Chris \nTull/HOU/ECT@ECT, Dale Smith/Corp/Enron@ENRON, Dave June/NA/Enron@ENRON, \nDonald Sutton/NA/Enron@Enron, Felicia Buenrostro/HR/Corp/Enron@ENRON, Johnna \nMorrison/Corp/Enron@ENRON, Joe Dorn/Corp/Enron@ENRON, Kathryn \nSchultea/HR/Corp/Enron@ENRON, Leon McDowell/NA/Enron@ENRON, Leticia \nBarrios/Corp/Enron@ENRON, Milton Brown/HR/Corp/Enron@ENRON, Raj \nPerubhatla/Corp/Enron@Enron, Shekar Komatireddy/NA/Enron@Enron, Andrea \nYowman/Corp/Enron@ENRON, Angie O'Brian/HR/Corp/Enron@ENRON, Bonne \nCastellano/HR/Corp/Enron@ENRON, Gwynn Gorsuch/NA/Enron@ENRON, Jo Ann \nMatson/Corp/Enron@ENRON, LaQuitta Washington/HR/Corp/Enron@ENRON, Rick \nJohnson/HR/Corp/Enron@ENRON, Sandra Lighthill/HR/Corp/Enron@ENRON, Valeria A \nHope/HOU/ECT@ECT, Charlotte Brown/HR/Corp/Enron@ENRON, Ronald \nFain/HR/Corp/Enron@ENRON, Gary Fitch/HR/Corp/Enron@Enron, Anna \nHarris/HR/Corp/Enron@ENRON, Keith Jones/HR/Corp/Enron@ENRON, Kristi \nMonson/NA/Enron@Enron, Bobbie McNiel/HR/Corp/Enron@ENRON, John \nStabler/HR/Corp/Enron@ENRON, Michelle Prince/NA/Enron@Enron, James \nGramke/NA/Enron@ENRON, Blair Hicks/NA/Enron@ENRON, Jennifer \nJohnson/Contractor/Enron Communications@Enron Communications, Jim \nLittle/Enron@EnronXGate, Dale Lukert/NA/Enron@ENRON, Donald \nMartin/NA/Enron@ENRON, Andrew Mattei/NA/Enron@ENRON, Darvin \nMitchell/NA/Enron@ENRON, Mark Oldham/NA/Enron@ENRON, Wesley \nPearson/NA/Enron@ENRON, Ramon Pizarro/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, \nNatalie Rau/NA/Enron@ENRON, William Redick/NA/Enron@ENRON, Mark A \nRichardson/NA/Enron@ENRON, Joseph Schnieders/NA/Enron@ENRON, Gary \nSimmons/NA/Enron@Enron, Delaney Trimble/NA/Enron@ENRON, David \nUpton/NA/Enron@ENRON, Mike Boegler/HR/Corp/Enron@ENRON, Lyndel \nClick/HR/Corp/Enron@ENRON, Gabriel Franco/NA/Enron@Enron, Randy \nGross/HR/Corp/Enron@Enron, Arthur Johnson/HR/Corp/Enron@Enron, Danny \nJones/HR/Corp/Enron@ENRON, John Ogden/Houston/Eott@Eott, Edgar \nPonce/NA/Enron@Enron, Tracy Pursifull/HR/Corp/Enron@ENRON, Lance \nStanley/HR/Corp/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M \nTholt/HOU/ECT@ECT, Jay Reitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, \nMatthew Lenhart/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Monique \nSanchez/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, \nTori Kuykendall/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne \nWukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike \nPotter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne \nCalcagno/NA/Enron@Enron, Alvin Thompson/Corp/Enron@Enron, Cynthia \nFranklin/Corp/Enron@ENRON, Jesse Villarreal/HOU/ECT@ECT, Joan \nCollins/HOU/EES@EES, Joe A Casas/HOU/ECT@ECT, Kelly Loocke/ENRON@enronXgate, \nLia Halstead/NA/Enron@ENRON, Meredith Homco/HOU/ECT@ECT, Robert \nAllwein/HOU/ECT@ECT, Scott Loving/NA/Enron@ENRON, Shanna \nBoudreaux/ENRON@enronXgate, Steve Gillespie/Corp/Enron@ENRON, Tamara \nCarter/NA/Enron@ENRON, Tracy Wood/NA/Enron@ENRON, Gabriel Fuzat/Enron \nCommunications@Enron Communications, Jack Netek/Enron Communications@Enron \nCommunications, Lam Nguyen/NA/Enron@Enron, Camille Gerard/Corp/Enron@ENRON, \nCraig Taylor/HOU/ECT@ECT, Jessica Hangach/NYC/MGUSA@MGUSA, Kathy \nGagel/NYC/MGUSA@MGUSA, Lisa Goulart/NYC/MGUSA@MGUSA, Ruth \nBalladares/NYC/MGUSA@MGUSA, Sid Strutt/NYC/MGUSA@MGUSA\ncc:  \nSubject: 4-URGENT - OWA Please print this now.\n\n\nCurrent Notes User:\n\nREASONS FOR USING OUTLOOK WEB ACCESS (OWA)\n\n1. Once your mailbox has been migrated from Notes to Outlook, the Outlook \nclient will be configured on your computer.\nAfter migration of your mailbox, you will not be able to send or recieve mail \nvia Notes, and you will not be able to start using Outlook until it is \nconfigured by the Outlook Migration team the morning after your mailbox is \nmigrated.  During this period, you can use Outlook Web Access (OWA) via your \nweb browser (Internet Explorer 5.0) to read and send mail.\n\nPLEASE NOTE:  Your calendar entries, personal address book, journals, and \nTo-Do entries imported from Notes will not be available until the Outlook \nclient is configured on your desktop.\n\n2. Remote access to your mailbox.\nAfter your Outlook client is configured, you can use Outlook Web Access (OWA) \nfor remote access to your mailbox.\n\nPLEASE NOTE:  At this time, the OWA client is only accessible while \nconnecting to the Enron network (LAN).  There are future plans to make OWA \navailable from your home or when traveling abroad.\n\nHOW TO ACCESS OUTLOOK WEB ACCESS (OWA)\n\nLaunch Internet Explorer 5.0, and in the address window type:  \nhttp://nahou-msowa01p/exchange/john.doe\n\nSubstitute \"john.doe\" with your first and last name, then click ENTER.  You \nwill be prompted with a sign in box as shown below.  Type in \"corp/your user \nid\" for the user name and your NT password to logon to OWA and click OK.  You \nwill now be able to view your mailbox.\n\n \n\nPLEASE NOTE:  There are some subtle differences in the functionality between \nthe Outlook and OWA clients.  You will not be able to do many of the things \nin OWA that you can do in Outlook.  Below is a brief list of *some* of the \nfunctions NOT available via OWA:\n\nFeatures NOT available using OWA:\n\n-  Tasks\n-  Journal\n-  Spell Checker\n-  Offline Use\n-  Printing Templates\n-  Reminders\n-  Timed Delivery\n-  Expiration\n-  Outlook Rules\n-  Voting, Message Flags and Message Recall\n-  Sharing Contacts with others\n-  Task Delegation\n-  Direct Resource Booking\n-  Personal Distribution Lists\n\nQUESTIONS OR CONCERNS?\n\nIf you have questions or concerns using the OWA client, please contact the \nOutlook 2000 question and answer Mailbox at:\n\n Outlook.2000@enron.com\n\nOtherwise, you may contact the Resolution Center at:\n\n 713-853-1411\n\nThank you,\n\nOutlook 2000 Migration Team\n",
+    "thread_id": "T-0007"
+  },
+  {
+    "message_id": "<20312982.1075855378658.JavaMail.evans@thyme>",
+    "date": "Tue, 1 May 2001 17:14:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "2- SURVEY/INFORMATION EMAIL",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/01/2001 02:14 PM ---------------------------\n\n\nOutlook Migration Team@ENRON\n04/27/2001 01:00 PM\nTo:\tAllison Horton/NA/Enron@ENRON, Amir Baig/NA/Enron@ENRON, Brandon Bangerter/NA/Enron@Enron, Brian Ellis/Corp/Enron@Enron, Charles Philpott/HR/Corp/Enron@ENRON, Chris P Wood/NA/Enron@Enron, Chris Tull/HOU/ECT@ECT, Dale Smith/Corp/Enron@ENRON, Dave June/NA/Enron@ENRON, Donald Sutton/NA/Enron@Enron, Felicia Buenrostro/HR/Corp/Enron@ENRON, Johnna Morrison/Corp/Enron@ENRON, Joe Dorn/Corp/Enron@ENRON, Kathryn Schultea/HR/Corp/Enron@ENRON, Leon McDowell/NA/Enron@ENRON, Leticia Barrios/Corp/Enron@ENRON, Milton Brown/HR/Corp/Enron@ENRON, Raj Perubhatla/Corp/Enron@Enron, Shekar Komatireddy/NA/Enron@Enron, Andrea Yowman/Corp/Enron@ENRON, Angie O'Brian/HR/Corp/Enron@ENRON, Bonne Castellano/HR/Corp/Enron@ENRON, Gwynn Gorsuch/NA/Enron@ENRON, Jo Ann Matson/Corp/Enron@ENRON, LaQuitta Washington/HR/Corp/Enron@ENRON, Rick Johnson/HR/Corp/Enron@ENRON, Sandra Lighthill/HR/Corp/Enron@ENRON, Valeria A Hope/HOU/ECT@ECT, Charlotte Brown/HR/Corp/Enron@ENRON, Ronald Fain/HR/Corp/Enron@ENRON, Gary Fitch/HR/Corp/Enron@Enron, Anna Harris/HR/Corp/Enron@ENRON, Keith Jones/HR/Corp/Enron@ENRON, Kristi Monson/NA/Enron@Enron, Bobbie McNiel/HR/Corp/Enron@ENRON, John Stabler/HR/Corp/Enron@ENRON, Michelle Prince/NA/Enron@Enron, James Gramke/NA/Enron@ENRON, Blair Hicks/NA/Enron@ENRON, Jennifer Johnson/Contractor/Enron Communications@Enron Communications, Jim Little/Enron@EnronXGate, Dale Lukert/NA/Enron@ENRON, Donald Martin/NA/Enron@ENRON, Andrew Mattei/NA/Enron@ENRON, Darvin Mitchell/NA/Enron@ENRON, Mark Oldham/NA/Enron@ENRON, Wesley Pearson/NA/Enron@ENRON, Ramon Pizarro/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Natalie Rau/NA/Enron@ENRON, William Redick/NA/Enron@ENRON, Mark A Richardson/NA/Enron@ENRON, Joseph Schnieders/NA/Enron@ENRON, Gary Simmons/NA/Enron@Enron, Delaney Trimble/NA/Enron@ENRON, David Upton/NA/Enron@ENRON, Mike Boegler/HR/Corp/Enron@ENRON, Lyndel Click/HR/Corp/Enron@ENRON, Gabriel Franco/NA/Enron@Enron, Randy Gross/HR/Corp/Enron@Enron, Arthur Johnson/HR/Corp/Enron@Enron, Danny Jones/HR/Corp/Enron@ENRON, John Ogden/Houston/Eott@Eott, Edgar Ponce/NA/Enron@Enron, Tracy Pursifull/HR/Corp/Enron@ENRON, Lance Stanley/HR/Corp/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M Tholt/HOU/ECT@ECT, Jay Reitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Matthew Lenhart/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Monique Sanchez/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, Tori Kuykendall/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne Wukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike Potter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne Calcagno/NA/Enron@Enron, Alvin Thompson/Corp/Enron@Enron, Cynthia Franklin/Corp/Enron@ENRON, Jesse Villarreal/HOU/ECT@ECT, Joan Collins/HOU/EES@EES, Joe A Casas/HOU/ECT@ECT, Kelly Loocke/ENRON@enronXgate, Lia Halstead/NA/Enron@ENRON, Meredith Homco/HOU/ECT@ECT, Robert Allwein/HOU/ECT@ECT, Scott Loving/NA/Enron@ENRON, Shanna Boudreaux/ENRON@enronXgate, Steve Gillespie/Corp/Enron@ENRON, Tamara Carter/NA/Enron@ENRON, Tracy Wood/NA/Enron@ENRON, Gabriel Fuzat/Enron Communications@Enron Communications, Jack Netek/Enron Communications@Enron Communications, Lam Nguyen/NA/Enron@Enron, Camille Gerard/Corp/Enron@ENRON, Craig Taylor/HOU/ECT@ECT, Jessica Hangach/NYC/MGUSA@MGUSA, Kathy Gagel/NYC/MGUSA@MGUSA, Lisa Goulart/NYC/MGUSA@MGUSA, Ruth Balladares/NYC/MGUSA@MGUSA, Sid Strutt/NYC/MGUSA@MGUSA\ncc:\t \nSubject:\t2- SURVEY/INFORMATION EMAIL\n\nCurrent Notes User: \n\nTo ensure that you experience a successful migration from Notes to Outlook, it is necessary to gather individual user information prior to your date of migration.  Please take a few minutes to completely fill out the following survey.  When you finish, simply click on the 'Reply' button then hit 'Send'  Your survey will automatically be sent to the Outlook 2000 Migration Mailbox.\n\nThank you.\n\nOutlook 2000 Migration Team\n\n--------------------------------------------------------------------------------------------------------------------------------------------\n\nFull Name:        \n\nLogin ID:  \n\nExtension:  \n\nOffice Location:  \n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)  \n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, Jornada)  \n\nDo you have permission to access anyone's Email/Calendar?  \n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?  \n    If yes, who?  \n\nAre you responsible for updating anyone else's address book?  \n    If yes, who?  \n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  \n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  \n\nDo you have any Distribution Groups that Messaging maintains for you (for mass mailings)?  \n    If yes, please list here:  \n\nPlease list all Notes databases applications that you currently use:  \n\nIn our efforts to plan the exact date/time of your migration, we also will need to know:\n\nWhat are your normal work hours?  From:      To:      \n\nWill you be out of the office in the near future for vacation, leave, etc?\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n",
+    "thread_id": "T-0008"
+  },
+  {
+    "message_id": "<7770576.1075855723967.JavaMail.evans@thyme>",
+    "date": "Tue, 1 May 2001 07:14:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "2- SURVEY/INFORMATION EMAIL",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/01/2001 \n02:14 PM ---------------------------\n\n\nOutlook Migration Team@ENRON\n04/27/2001 01:00 PM\nTo: Allison Horton/NA/Enron@ENRON, Amir Baig/NA/Enron@ENRON, Brandon \nBangerter/NA/Enron@Enron, Brian Ellis/Corp/Enron@Enron, Charles \nPhilpott/HR/Corp/Enron@ENRON, Chris P Wood/NA/Enron@Enron, Chris \nTull/HOU/ECT@ECT, Dale Smith/Corp/Enron@ENRON, Dave June/NA/Enron@ENRON, \nDonald Sutton/NA/Enron@Enron, Felicia Buenrostro/HR/Corp/Enron@ENRON, Johnna \nMorrison/Corp/Enron@ENRON, Joe Dorn/Corp/Enron@ENRON, Kathryn \nSchultea/HR/Corp/Enron@ENRON, Leon McDowell/NA/Enron@ENRON, Leticia \nBarrios/Corp/Enron@ENRON, Milton Brown/HR/Corp/Enron@ENRON, Raj \nPerubhatla/Corp/Enron@Enron, Shekar Komatireddy/NA/Enron@Enron, Andrea \nYowman/Corp/Enron@ENRON, Angie O'Brian/HR/Corp/Enron@ENRON, Bonne \nCastellano/HR/Corp/Enron@ENRON, Gwynn Gorsuch/NA/Enron@ENRON, Jo Ann \nMatson/Corp/Enron@ENRON, LaQuitta Washington/HR/Corp/Enron@ENRON, Rick \nJohnson/HR/Corp/Enron@ENRON, Sandra Lighthill/HR/Corp/Enron@ENRON, Valeria A \nHope/HOU/ECT@ECT, Charlotte Brown/HR/Corp/Enron@ENRON, Ronald \nFain/HR/Corp/Enron@ENRON, Gary Fitch/HR/Corp/Enron@Enron, Anna \nHarris/HR/Corp/Enron@ENRON, Keith Jones/HR/Corp/Enron@ENRON, Kristi \nMonson/NA/Enron@Enron, Bobbie McNiel/HR/Corp/Enron@ENRON, John \nStabler/HR/Corp/Enron@ENRON, Michelle Prince/NA/Enron@Enron, James \nGramke/NA/Enron@ENRON, Blair Hicks/NA/Enron@ENRON, Jennifer \nJohnson/Contractor/Enron Communications@Enron Communications, Jim \nLittle/Enron@EnronXGate, Dale Lukert/NA/Enron@ENRON, Donald \nMartin/NA/Enron@ENRON, Andrew Mattei/NA/Enron@ENRON, Darvin \nMitchell/NA/Enron@ENRON, Mark Oldham/NA/Enron@ENRON, Wesley \nPearson/NA/Enron@ENRON, Ramon Pizarro/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, \nNatalie Rau/NA/Enron@ENRON, William Redick/NA/Enron@ENRON, Mark A \nRichardson/NA/Enron@ENRON, Joseph Schnieders/NA/Enron@ENRON, Gary \nSimmons/NA/Enron@Enron, Delaney Trimble/NA/Enron@ENRON, David \nUpton/NA/Enron@ENRON, Mike Boegler/HR/Corp/Enron@ENRON, Lyndel \nClick/HR/Corp/Enron@ENRON, Gabriel Franco/NA/Enron@Enron, Randy \nGross/HR/Corp/Enron@Enron, Arthur Johnson/HR/Corp/Enron@Enron, Danny \nJones/HR/Corp/Enron@ENRON, John Ogden/Houston/Eott@Eott, Edgar \nPonce/NA/Enron@Enron, Tracy Pursifull/HR/Corp/Enron@ENRON, Lance \nStanley/HR/Corp/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M \nTholt/HOU/ECT@ECT, Jay Reitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, \nMatthew Lenhart/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Monique \nSanchez/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, \nTori Kuykendall/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne \nWukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike \nPotter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne \nCalcagno/NA/Enron@Enron, Alvin Thompson/Corp/Enron@Enron, Cynthia \nFranklin/Corp/Enron@ENRON, Jesse Villarreal/HOU/ECT@ECT, Joan \nCollins/HOU/EES@EES, Joe A Casas/HOU/ECT@ECT, Kelly Loocke/ENRON@enronXgate, \nLia Halstead/NA/Enron@ENRON, Meredith Homco/HOU/ECT@ECT, Robert \nAllwein/HOU/ECT@ECT, Scott Loving/NA/Enron@ENRON, Shanna \nBoudreaux/ENRON@enronXgate, Steve Gillespie/Corp/Enron@ENRON, Tamara \nCarter/NA/Enron@ENRON, Tracy Wood/NA/Enron@ENRON, Gabriel Fuzat/Enron \nCommunications@Enron Communications, Jack Netek/Enron Communications@Enron \nCommunications, Lam Nguyen/NA/Enron@Enron, Camille Gerard/Corp/Enron@ENRON, \nCraig Taylor/HOU/ECT@ECT, Jessica Hangach/NYC/MGUSA@MGUSA, Kathy \nGagel/NYC/MGUSA@MGUSA, Lisa Goulart/NYC/MGUSA@MGUSA, Ruth \nBalladares/NYC/MGUSA@MGUSA, Sid Strutt/NYC/MGUSA@MGUSA\ncc:  \nSubject: 2- SURVEY/INFORMATION EMAIL\n\nCurrent Notes User: \n\nTo ensure that you experience a successful migration from Notes to Outlook, \nit is necessary to gather individual user information prior to your date of \nmigration.  Please take a few minutes to completely fill out the following \nsurvey.  When you finish, simply click on the 'Reply' button then hit 'Send'  \nYour survey will automatically be sent to the Outlook 2000 Migration Mailbox.\n\nThank you.\n\nOutlook 2000 Migration Team\n\n------------------------------------------------------------------------------\n--------------------------------------------------------------\n\nFull Name:        \n\nLogin ID:  \n\nExtension:  \n\nOffice Location:  \n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)  \n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, \nJornada)  \n\nDo you have permission to access anyone's Email/Calendar?  \n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?  \n    If yes, who?  \n\nAre you responsible for updating anyone else's address book?  \n    If yes, who?  \n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  \n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  \n\nDo you have any Distribution Groups that Messaging maintains for you (for \nmass mailings)?  \n    If yes, please list here:  \n\nPlease list all Notes databases applications that you currently use:  \n\nIn our efforts to plan the exact date/time of your migration, we also will \nneed to know:\n\nWhat are your normal work hours?  From:      To:      \n\nWill you be out of the office in the near future for vacation, leave, etc?\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n",
+    "thread_id": "T-0008"
+  },
+  {
+    "message_id": "<10522460.1075855688813.JavaMail.evans@thyme>",
+    "date": "Wed, 30 Aug 2000 08:14:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "muller@thedoghousemail.com",
+    "subject": "Re: (No Subject)",
+    "body": "Greg,\n\n Got your message.  Good luck on the bike ride.\n\n What were you doing to your apartment?  Are you setting up a studio?\n\n The kids are back in school.  Otherwise just work is going on here.\n\nKeith",
+    "thread_id": "T-0009"
+  },
+  {
+    "message_id": "<28471126.1075855686369.JavaMail.evans@thyme>",
+    "date": "Mon, 11 Dec 2000 06:10:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "muller@thedoghousemail.com",
+    "subject": "Re: (No Subject)",
+    "body": "Greg,\n\n            The kids are into typical toys and games.  Justin likes power \nranger stuff.  Kelsey really likes art.  Books would also be good.  \n\n            We are spending Christmas in Houston with Heather's sister.  We \nare planning to come to San Marcos for New Years.  \n\n            How long will you stay?  what are your plans?  Email me with \nlatest happenings with you in the big city.\n\nkeith",
+    "thread_id": "T-0009"
+  },
+  {
+    "message_id": "<17508231.1075855378741.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 19:04:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "alan.comnes@enron.com",
+    "subject": "Re: Request from Steve Kean",
+    "body": "Alan, \n\nYou should have received updated numbers from Keith Holst.  Call me if you did not receive them.\n\nPhillip",
+    "thread_id": "T-0010"
+  },
+  {
+    "message_id": "<6235729.1075855723988.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 09:04:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "alan.comnes@enron.com",
+    "subject": "Re: Request from Steve Kean",
+    "body": "Alan, \n\nYou should have received updated numbers from Keith Holst.  Call me if you \ndid not receive them.\n\nPhillip",
+    "thread_id": "T-0010"
+  },
+  {
+    "message_id": "<24302765.1075855689093.JavaMail.evans@thyme>",
+    "date": "Thu, 24 Aug 2000 02:48:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "stagecoachmama@hotmail.com",
+    "subject": "Re: receipts",
+    "body": "Lucy,\n I got your email with the attachment.  Let's work together today to get this \ndone\n\nPhillip",
+    "thread_id": "T-0011"
+  },
+  {
+    "message_id": "<12810713.1075855692730.JavaMail.evans@thyme>",
+    "date": "Thu, 6 Jan 2000 07:19:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "maryrichards7@hotmail.com",
+    "subject": "Re: receipts",
+    "body": "received the file.  It worked.  Good job.",
+    "thread_id": "T-0011"
+  },
+  {
+    "message_id": "<22040365.1075855378763.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 14:22:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Request from Steve Kean",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/30/2001 11:21 AM ---------------------------\n\n\nAlan Comnes\n04/27/2001 01:38 PM\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\tJoe Hartsoe/Corp/Enron@ENRON \nSubject:\tRequest from Steve Kean\n\nPhillip,\n\nI got this request.  On the gas side, I think Kean/Lay need an update to a table you prepared for me a few months ago, which I've attached..  Can you oblige?  Thanks,\n\nAlan Comnes\n\n \n\n---------------------- Forwarded by Alan Comnes/PDX/ECT on 04/27/2001 01:42 PM ---------------------------\n\n\nJanel Guerrero@ENRON\n04/27/2001 12:44 PM\nTo:\tAlan Comnes/PDX/ECT@ECT, Jeff Dasovich/NA/Enron@Enron\ncc:\tPaul Kaufman/PDX/ECT@ECT, Richard Shapiro/NA/Enron@Enron \n\nSubject:\tRequest from Steve Kean\n\nAlan,\n\nSteve has asked that you update the power point below so that it reflects all of the \"stupid regulatory/legislative decisions\" since the beginning of the year.  Ken wants to have this updated chart in his briefing book for next week's \"Ken Lay Tour\" to CA.  \n\nHe also wants a forward price curve for both gas and power in CA.  Can we get these three documents by Monday afternoon?  \n\n\n\n",
+    "thread_id": "T-0012"
+  },
+  {
+    "message_id": "<25043030.1075855378785.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 13:37:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Request from Steve Kean",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/30/2001 10:36 AM ---------------------------\n\n\nAlan Comnes\n04/27/2001 01:38 PM\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\tJoe Hartsoe/Corp/Enron@ENRON \nSubject:\tRequest from Steve Kean\n\nPhillip,\n\nI got this request.  On the gas side, I think Kean/Lay need an update to a table you prepared for me a few months ago, which I've attached..  Can you oblige?  Thanks,\n\nAlan Comnes\n\n \n\n---------------------- Forwarded by Alan Comnes/PDX/ECT on 04/27/2001 01:42 PM ---------------------------\n\n\nJanel Guerrero@ENRON\n04/27/2001 12:44 PM\nTo:\tAlan Comnes/PDX/ECT@ECT, Jeff Dasovich/NA/Enron@Enron\ncc:\tPaul Kaufman/PDX/ECT@ECT, Richard Shapiro/NA/Enron@Enron \n\nSubject:\tRequest from Steve Kean\n\nAlan,\n\nSteve has asked that you update the power point below so that it reflects all of the \"stupid regulatory/legislative decisions\" since the beginning of the year.  Ken wants to have this updated chart in his briefing book for next week's \"Ken Lay Tour\" to CA.  \n\nHe also wants a forward price curve for both gas and power in CA.  Can we get these three documents by Monday afternoon?  \n\n\n\n",
+    "thread_id": "T-0012"
+  },
+  {
+    "message_id": "<13418295.1075855724012.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 04:22:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Request from Steve Kean",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/30/2001 \n11:21 AM ---------------------------\n\n\nAlan Comnes\n04/27/2001 01:38 PM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Joe Hartsoe/Corp/Enron@ENRON \nSubject: Request from Steve Kean\n\nPhillip,\n\nI got this request.  On the gas side, I think Kean/Lay need an update to a \ntable you prepared for me a few months ago, which I've attached..  Can you \noblige?  Thanks,\n\nAlan Comnes\n\n\n\n---------------------- Forwarded by Alan Comnes/PDX/ECT on 04/27/2001 01:42 \nPM ---------------------------\n\n\nJanel Guerrero@ENRON\n04/27/2001 12:44 PM\nTo: Alan Comnes/PDX/ECT@ECT, Jeff Dasovich/NA/Enron@Enron\ncc: Paul Kaufman/PDX/ECT@ECT, Richard Shapiro/NA/Enron@Enron \n\nSubject: Request from Steve Kean\n\nAlan,\n\nSteve has asked that you update the power point below so that it reflects all \nof the \"stupid regulatory/legislative decisions\" since the beginning of the \nyear.  Ken wants to have this updated chart in his briefing book for next \nweek's \"Ken Lay Tour\" to CA.  \n\nHe also wants a forward price curve for both gas and power in CA.  Can we get \nthese three documents by Monday afternoon?  \n\n\n\n",
+    "thread_id": "T-0012"
+  },
+  {
+    "message_id": "<1960616.1075855724034.JavaMail.evans@thyme>",
+    "date": "Mon, 30 Apr 2001 03:37:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Request from Steve Kean",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/30/2001 \n10:36 AM ---------------------------\n\n\nAlan Comnes\n04/27/2001 01:38 PM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Joe Hartsoe/Corp/Enron@ENRON \nSubject: Request from Steve Kean\n\nPhillip,\n\nI got this request.  On the gas side, I think Kean/Lay need an update to a \ntable you prepared for me a few months ago, which I've attached..  Can you \noblige?  Thanks,\n\nAlan Comnes\n\n\n\n---------------------- Forwarded by Alan Comnes/PDX/ECT on 04/27/2001 01:42 \nPM ---------------------------\n\n\nJanel Guerrero@ENRON\n04/27/2001 12:44 PM\nTo: Alan Comnes/PDX/ECT@ECT, Jeff Dasovich/NA/Enron@Enron\ncc: Paul Kaufman/PDX/ECT@ECT, Richard Shapiro/NA/Enron@Enron \n\nSubject: Request from Steve Kean\n\nAlan,\n\nSteve has asked that you update the power point below so that it reflects all \nof the \"stupid regulatory/legislative decisions\" since the beginning of the \nyear.  Ken wants to have this updated chart in his briefing book for next \nweek's \"Ken Lay Tour\" to CA.  \n\nHe also wants a forward price curve for both gas and power in CA.  Can we get \nthese three documents by Monday afternoon?  \n\n\n\n",
+    "thread_id": "T-0012"
+  },
+  {
+    "message_id": "<33111317.1075855689245.JavaMail.evans@thyme>",
+    "date": "Sun, 20 Aug 2000 10:39:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Daily Report",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 08/20/2000 \n05:38 PM ---------------------------\n\n\n\"Lucy Gonzalez\" <stagecoachmama@hotmail.com> on 08/16/2000 02:44:36 PM\nTo: pallen@enron.com\ncc:  \nSubject: Daily Report\n\n\n\n       Phillip,\n               The a/c I bought today for #17 cost $166.71 pd by ck#1429\n      8/16/00 at WAL-MART.Also on 8/15/00 Ralph's Appliance Centerck#1428\n      frig & stove for apt #20-B IVOICE # 000119 AMT=308.56 (STOVE=150.00\n     (frig=125.00)DEL CHRG=15.00\\TAX=18.56 TOTAL=308.56.FAX MACHINE FOR\nFFICE CK # 1427=108.25 FROM sTEELMAN OFFICE PRODUC\n\nTS.                                           Thanxs, Lucy\n________________________________________________________________________\nGet Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com\n\n",
+    "thread_id": "T-0013"
+  },
+  {
+    "message_id": "<1665326.1075855689266.JavaMail.evans@thyme>",
+    "date": "Sun, 20 Aug 2000 10:38:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Daily Report",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 08/20/2000 \n05:38 PM ---------------------------\n\n\n\"Lucy Gonzalez\" <stagecoachmama@hotmail.com> on 08/17/2000 02:37:55 PM\nTo: pallen@enron.com\ncc:  \nSubject: Daily Report\n\n\n\n   Phillip,\n        Today was one of those days because Wade had to go pay his fine and\nI had to go take him that takes alot of time out of my schedule.If you get a\nchance will you mention to him that he needs to, try to fix his van so tht\nhe can go get what ever he needs. Tomorrow gary is going to be here.I have\nto go but Iwill E-Mail you tomorrow\n                                            Lucy\n\n________________________________________________________________________\nGet Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com\n\n",
+    "thread_id": "T-0013"
+  },
+  {
+    "message_id": "<5468446.1075855378133.JavaMail.evans@thyme>",
+    "date": "Mon, 14 May 2001 13:39:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "outlook.team@enron.com",
+    "subject": "Re: 2- SURVEY/INFORMATION EMAIL 5-14- 01",
+    "body": "\n\n\n\n\nOutlook Migration Team@ENRON\n05/11/2001 01:49 PM\nTo:\tCheryl Wilchynski/HR/Corp/Enron@ENRON, Cindy R Ward/NA/Enron@ENRON, Jo Ann Hill/Corp/Enron@ENRON, Sonja Galloway/Corp/Enron@Enron, Bilal Bajwa/NA/Enron@Enron, Binh Pham/HOU/ECT@ECT, Bradley Jones/ENRON@enronXgate, Bruce Mills/Corp/Enron@ENRON, Chance Rabon/ENRON@enronXgate, Chuck Ames/NA/Enron@Enron, David Baumbach/HOU/ECT@ECT, Jad Doan/ENRON@enronXgate, O'Neal D Winfree/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Sladana-Anna Kulic/ENRON@enronXgate, Victor Guggenheim/HOU/ECT@ECT, Alejandra Chavez/NA/Enron@ENRON, Anne Bike/Enron@EnronXGate, Carole Frank/NA/Enron@ENRON, Darron C Giron/HOU/ECT@ECT, Elizabeth L Hernandez/HOU/ECT@ECT, Elizabeth Shim/Corp/Enron@ENRON, Jeff Royed/Corp/Enron@ENRON, Kam Keiser/HOU/ECT@ECT, Kimat Singla/HOU/ECT@ECT, Kristen Clause/ENRON@enronXgate, Kulvinder Fowler/NA/Enron@ENRON, Kyle R Lilly/HOU/ECT@ECT, Luchas Johnson/NA/Enron@Enron, Maria Garza/HOU/ECT@ECT, Patrick Ryder/NA/Enron@Enron, Ryan O'Rourke/ENRON@enronXgate, Yuan Tian/NA/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M Tholt/HOU/ECT@ECT, Jay Reitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Matthew Lenhart/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Monique Sanchez/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, Tori Kuykendall/HOU/ECT@ECT, Ina Norman/HOU/ECT@ECT, Jackie Travis/HOU/ECT@ECT, Michael J Gasper/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne Wukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike Potter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne Calcagno/NA/Enron@Enron, Albert Stromquist/Corp/Enron@ENRON, Rajesh Chettiar/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Derek Anderson/HOU/ECT@ECT, Brad Horn/HOU/ECT@ECT, Camille Gerard/Corp/Enron@ENRON, Cathy Lira/NA/Enron@ENRON, Daniel Castagnola/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Eva Tow/Corp/Enron@ENRON, Lam Nguyen/NA/Enron@Enron, Andy Pace/NA/Enron@Enron, Anna Santucci/NA/Enron@Enron, Claudia Guerra/NA/Enron@ENRON, Clayton Vernon/Corp/Enron@ENRON, David Ryan/Corp/Enron@ENRON, Eric Smith/Contractor/Enron Communications@Enron Communications, Grace Kim/NA/Enron@Enron, Jason Kaniss/ENRON@enronXgate, Kevin Cline/Corp/Enron@Enron, Rika Imai/NA/Enron@Enron, Todd DeCook/Corp/Enron@Enron, Beth Jensen/NPNG/Enron@ENRON, Billi Harrill/NPNG/Enron@ENRON, Martha Sumner-Kenney/NPNG/Enron@ENRON, Phyllis Miller/NPNG/Enron@ENRON, Sandy Olofson/NPNG/Enron@ENRON, Theresa Byrne/NPNG/Enron@ENRON, Danny McCarty/ET&S/Enron@Enron, Denis Tu/FGT/Enron@ENRON, John A Ayres/FGT/Enron@ENRON, John Millar/FGT/Enron@Enron, Julie Armstrong/Corp/Enron@ENRON, Maggie Schroeder/FGT/Enron@ENRON, Max Brown/OTS/Enron@ENRON, Randy Cantrell/GCO/Enron@ENRON, Tracy Scott/Corp/Enron@ENRON, Charles T Muzzy/HOU/ECT@ECT, Cora Pendergrass/Corp/Enron@ENRON, Darren Espey/Corp/Enron@ENRON, Jessica White/NA/Enron@Enron, Kevin Brady/NA/Enron@Enron, Kirk Lenart/HOU/ECT@ECT, Lisa Kinsey/HOU/ECT@ECT, Margie Straight/HOU/ECT@ECT, Mark L Schrab/HOU/ECT@ECT, Souad Mahmassani/Corp/Enron@ENRON, Tammy Gilmore/NA/Enron@ENRON, Teresa McOmber/NA/Enron@ENRON, Wes Dempsey/NA/Enron@Enron, Barry Feldman/NYC/MGUSA@MGUSA, Catherine Huynh/NA/Enron@Enron\ncc:\t \nSubject:\t2- SURVEY/INFORMATION EMAIL 5-14- 01\n\nCurrent Notes User: \n\nTo ensure that you experience a successful migration from Notes to Outlook, it is necessary to gather individual user information prior to your date of migration.  Please take a few minutes to completely fill out the following survey. Double Click on document to put it in \"Edit\" mode. When you finish, simply click on the 'Reply With History' button then hit 'Send'  Your survey will automatically be sent to the Outlook 2000 Migration Mailbox.\n\nThank you.\n\nOutlook 2000 Migration Team\n\n--------------------------------------------------------------------------------------------------------------------------------------------\n\nFull Name:        Phillip Allen\t\t\n\nLogin ID:  \tpallen\n\nExtension:  \t37041\n\nOffice Location:  EB3210C\n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)  \tBoth\n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, Jornada)  IPAQ\n\nDo you have permission to access anyone's Email/Calendar?  \t\n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?  \tYes, Ina Rangel\n    If yes, who?  \n\nAre you responsible for updating anyone else's address book?  \t\n    If yes, who?  \n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  \n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  \n\nDo you have any Distribution Groups that Messaging maintains for you (for mass mailings)?  \n    If yes, please list here:  \n\nPlease list all Notes databases applications that you currently use:  \n\nIn our efforts to plan the exact date/time of your migration, we also will need to know:\n\nWhat are your normal work hours?  From:   7   To:      5\n\nWill you be out of the office in the near future for vacation, leave, etc?\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n\n",
+    "thread_id": "T-0014"
+  },
+  {
+    "message_id": "<30467968.1075855723641.JavaMail.evans@thyme>",
+    "date": "Mon, 14 May 2001 01:39:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "outlook.team@enron.com",
+    "subject": "Re: 2- SURVEY/INFORMATION EMAIL 5-14- 01",
+    "body": "Outlook Migration Team@ENRON\n05/11/2001 01:49 PM\nTo: Cheryl Wilchynski/HR/Corp/Enron@ENRON, Cindy R Ward/NA/Enron@ENRON, Jo \nAnn Hill/Corp/Enron@ENRON, Sonja Galloway/Corp/Enron@Enron, Bilal \nBajwa/NA/Enron@Enron, Binh Pham/HOU/ECT@ECT, Bradley Jones/ENRON@enronXgate, \nBruce Mills/Corp/Enron@ENRON, Chance Rabon/ENRON@enronXgate, Chuck \nAmes/NA/Enron@Enron, David Baumbach/HOU/ECT@ECT, Jad Doan/ENRON@enronXgate, \nO'Neal D Winfree/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Sladana-Anna \nKulic/ENRON@enronXgate, Victor Guggenheim/HOU/ECT@ECT, Alejandra \nChavez/NA/Enron@ENRON, Anne Bike/Enron@EnronXGate, Carole \nFrank/NA/Enron@ENRON, Darron C Giron/HOU/ECT@ECT, Elizabeth L \nHernandez/HOU/ECT@ECT, Elizabeth Shim/Corp/Enron@ENRON, Jeff \nRoyed/Corp/Enron@ENRON, Kam Keiser/HOU/ECT@ECT, Kimat Singla/HOU/ECT@ECT, \nKristen Clause/ENRON@enronXgate, Kulvinder Fowler/NA/Enron@ENRON, Kyle R \nLilly/HOU/ECT@ECT, Luchas Johnson/NA/Enron@Enron, Maria Garza/HOU/ECT@ECT, \nPatrick Ryder/NA/Enron@Enron, Ryan O'Rourke/ENRON@enronXgate, Yuan \nTian/NA/Enron@ENRON, Frank Ermis/HOU/ECT@ECT, Jane M Tholt/HOU/ECT@ECT, Jay \nReitmeyer/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect, Matthew Lenhart/HOU/ECT@ECT, \nMike Grigsby/HOU/ECT@ECT, Monique Sanchez/HOU/ECT@ECT, Phillip K \nAllen/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, Tori Kuykendall/HOU/ECT@ECT, \nIna Norman/HOU/ECT@ECT, Jackie Travis/HOU/ECT@ECT, Michael J \nGasper/HOU/ECT@ECT, Brenda H Fletcher/HOU/ECT@ECT, Jeanne \nWukasch/Corp/Enron@ENRON, Mary Theresa Franklin/HOU/ECT@ECT, Mike \nPotter/NA/Enron@Enron, Natalie Baker/HOU/ECT@ECT, Suzanne \nCalcagno/NA/Enron@Enron, Albert Stromquist/Corp/Enron@ENRON, Rajesh \nChettiar/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Derek Anderson/HOU/ECT@ECT, \nBrad Horn/HOU/ECT@ECT, Camille Gerard/Corp/Enron@ENRON, Cathy \nLira/NA/Enron@ENRON, Daniel Castagnola/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, \nEva Tow/Corp/Enron@ENRON, Lam Nguyen/NA/Enron@Enron, Andy \nPace/NA/Enron@Enron, Anna Santucci/NA/Enron@Enron, Claudia \nGuerra/NA/Enron@ENRON, Clayton Vernon/Corp/Enron@ENRON, David \nRyan/Corp/Enron@ENRON, Eric Smith/Contractor/Enron Communications@Enron \nCommunications, Grace Kim/NA/Enron@Enron, Jason Kaniss/ENRON@enronXgate, \nKevin Cline/Corp/Enron@Enron, Rika Imai/NA/Enron@Enron, Todd \nDeCook/Corp/Enron@Enron, Beth Jensen/NPNG/Enron@ENRON, Billi \nHarrill/NPNG/Enron@ENRON, Martha Sumner-Kenney/NPNG/Enron@ENRON, Phyllis \nMiller/NPNG/Enron@ENRON, Sandy Olofson/NPNG/Enron@ENRON, Theresa \nByrne/NPNG/Enron@ENRON, Danny McCarty/ET&S/Enron@Enron, Denis \nTu/FGT/Enron@ENRON, John A Ayres/FGT/Enron@ENRON, John \nMillar/FGT/Enron@Enron, Julie Armstrong/Corp/Enron@ENRON, Maggie \nSchroeder/FGT/Enron@ENRON, Max Brown/OTS/Enron@ENRON, Randy \nCantrell/GCO/Enron@ENRON, Tracy Scott/Corp/Enron@ENRON, Charles T \nMuzzy/HOU/ECT@ECT, Cora Pendergrass/Corp/Enron@ENRON, Darren \nEspey/Corp/Enron@ENRON, Jessica White/NA/Enron@Enron, Kevin \nBrady/NA/Enron@Enron, Kirk Lenart/HOU/ECT@ECT, Lisa Kinsey/HOU/ECT@ECT, \nMargie Straight/HOU/ECT@ECT, Mark L Schrab/HOU/ECT@ECT, Souad \nMahmassani/Corp/Enron@ENRON, Tammy Gilmore/NA/Enron@ENRON, Teresa \nMcOmber/NA/Enron@ENRON, Wes Dempsey/NA/Enron@Enron, Barry \nFeldman/NYC/MGUSA@MGUSA, Catherine Huynh/NA/Enron@Enron\ncc:  \nSubject: 2- SURVEY/INFORMATION EMAIL 5-14- 01\n\nCurrent Notes User: \n\nTo ensure that you experience a successful migration from Notes to Outlook, \nit is necessary to gather individual user information prior to your date of \nmigration.  Please take a few minutes to completely fill out the following \nsurvey. Double Click on document to put it in \"Edit\" mode. When you finish, \nsimply click on the 'Reply With History' button then hit 'Send'  Your survey \nwill automatically be sent to the Outlook 2000 Migration Mailbox.\n\nThank you.\n\nOutlook 2000 Migration Team\n\n------------------------------------------------------------------------------\n--------------------------------------------------------------\n\nFull Name:        Phillip Allen  \n\nLogin ID:   pallen\n\nExtension:   37041\n\nOffice Location:  EB3210C\n\nWhat type of computer do you have?  (Desktop,  Laptop,  Both)   Both\n\nDo you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilot, \nJornada)  IPAQ\n\nDo you have permission to access anyone's Email/Calendar?   \n    If yes, who?  \n\nDoes anyone have permission to access your Email/Calendar?   Yes, Ina Rangel\n    If yes, who?  \n\nAre you responsible for updating anyone else's address book?   \n    If yes, who?  \n\nIs anyone else responsible for updating your address book?  \n    If yes, who?  \n\nDo you have access to a shared calendar?  \n    If yes, which shared calendar?  \n\nDo you have any Distribution Groups that Messaging maintains for you (for \nmass mailings)?  \n    If yes, please list here:  \n\nPlease list all Notes databases applications that you currently use:  \n\nIn our efforts to plan the exact date/time of your migration, we also will \nneed to know:\n\nWhat are your normal work hours?  From:   7   To:      5\n\nWill you be out of the office in the near future for vacation, leave, etc?\n       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):      \n\n\n\n",
+    "thread_id": "T-0014"
+  },
+  {
+    "message_id": "<15240164.1075855689768.JavaMail.evans@thyme>",
+    "date": "Wed, 26 Jul 2000 03:46:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ywang@enron.com",
+    "subject": "Re: New Notice from Transwestern Pipeline Co.",
+    "body": "please add mike grigsby to distribution",
+    "thread_id": "T-0015"
+  },
+  {
+    "message_id": "<10221129.1075855690113.JavaMail.evans@thyme>",
+    "date": "Tue, 11 Jul 2000 02:12:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ywang@enron.com",
+    "subject": "Re: New Notice from Transwestern Pipeline Co.",
+    "body": "please add mike grigsby to distribution list.\n",
+    "thread_id": "T-0015"
+  },
+  {
+    "message_id": "<18062842.1075855690006.JavaMail.evans@thyme>",
+    "date": "Wed, 12 Jul 2000 07:19:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "randall.gay@enron.com",
+    "subject": "assoc. for west desk",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 07/12/2000 \n02:18 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Jana Giovannini                           07/11/2000 02:58 PM\n\t\n\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Celeste Roberts/HOU/ECT@ECT \nSubject: assoc. for west desk\n\nSorry, I didn't attach the form.  There is one for Associates and one for \nAnalyst.\n\n\n---------------------- Forwarded by Jana Giovannini/HOU/ECT on 07/11/2000 \n04:57 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Jana Giovannini                           07/11/2000 04:57 PM\n\t\n\nTo: Phillip K Allen/HOU/ECT@ECT\ncc: Celeste Roberts/HOU/ECT@ECT \nSubject: assoc. for west desk\n\nHey Phillip,\nI received your note from Celeste.  I am the ENA Staffing Coordinator and \nneed for you to fill out the attached Needs Assessment form before I can send \nyou any resumes.  Also, would you be interested in the new class?  Analysts \nstart with the business units on Aug. 3rd and Assoc. start on Aug. 28th.  We \nare starting to place the Associates and would like to see if you are \ninterested.  Please let me know.  \n\nOnce I receive the Needs Assessment back (and you let me know if you can wait \na month,) I will be happy to pull a couple of resumes for your review.  If \nyou have any questions, please let me know.  Thanks.\n---------------------- Forwarded by Jana Giovannini/HOU/ECT on 07/11/2000 \n04:50 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Dolores Muzzy                           07/11/2000 04:17 PM\n\t\n\nTo: Jana Giovannini/HOU/ECT@ECT\ncc:  \nSubject: assoc. for west desk\n\nI believe Phillip Allen is from ENA.\n\nDolores\n---------------------- Forwarded by Dolores Muzzy/HOU/ECT on 07/11/2000 04:17 \nPM ---------------------------\n   \n\t\n\t\n\tFrom:  Phillip K Allen                           07/11/2000 12:54 PM\n\t\n\nTo: Celeste Roberts/HOU/ECT@ECT\ncc:  \nSubject: assoc. for west desk\n\nCeleste,\n\n I need two assoc./analyst for the west gas trading desk.  Can you help?\n I also left you a voice mail.\n\nPhillip\nx37041\n\n\n\n\n\n\n",
+    "thread_id": "T-0016"
+  },
+  {
+    "message_id": "<19895660.1075855690071.JavaMail.evans@thyme>",
+    "date": "Tue, 11 Jul 2000 05:54:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "celeste.roberts@enron.com",
+    "subject": "assoc. for west desk",
+    "body": "Celeste,\n\n I need two assoc./analyst for the west gas trading desk.  Can you help?\n I also left you a voice mail.\n\nPhillip\nx37041",
+    "thread_id": "T-0016"
+  },
+  {
+    "message_id": "<16453400.1075855690092.JavaMail.evans@thyme>",
+    "date": "Tue, 11 Jul 2000 02:50:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "al.pollard@enron.com",
+    "subject": "Re: Katy flatlands",
+    "body": "How about Tuesday at 11:15 in front of the building?",
+    "thread_id": "T-0017"
+  },
+  {
+    "message_id": "<32881814.1075855690221.JavaMail.evans@thyme>",
+    "date": "Mon, 10 Jul 2000 06:54:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "al.pollard@enron.com",
+    "subject": "Re: Katy flatlands",
+    "body": "Al,\n\nI am not in good enough shape to ride a century right now.  Plus I'm nursing \nsome injuries.  I can do lunch this week or next, let's pick a day.\n\nPhillip",
+    "thread_id": "T-0017"
+  },
+  {
+    "message_id": "<12786049.1075855378908.JavaMail.evans@thyme>",
+    "date": "Thu, 26 Apr 2001 11:34:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ray.alvarez@enron.com",
+    "subject": "Re: FERC's Prospective Mitigation and Monitoring Plan for CA\n Wholesale Electric Markets",
+    "body": "Ray,\n\nIs there any detail on the gas cost proxy.  Which delivery points from which publication will be used?  Basically, can you help us get any clarification on the language \"the average daily cost of gas for all delivery points in California\"?\n\nPhillip",
+    "thread_id": "T-0018"
+  },
+  {
+    "message_id": "<24558320.1075855724141.JavaMail.evans@thyme>",
+    "date": "Thu, 26 Apr 2001 01:34:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ray.alvarez@enron.com",
+    "subject": "Re: FERC's Prospective Mitigation and Monitoring Plan for CA\n Wholesale Electric Markets",
+    "body": "Ray,\n\nIs there any detail on the gas cost proxy.  Which delivery points from which \npublication will be used?  Basically, can you help us get any clarification \non the language \"the average daily cost of gas for all delivery points in \nCalifornia\"?\n\nPhillip",
+    "thread_id": "T-0018"
+  },
+  {
+    "message_id": "<12558609.1075855378931.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 18:57:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ned.higgins@enron.com",
+    "subject": "Re: Unocal WAHA Storage",
+    "body": "Ned,\n\nRegarding the Waha storage, the west desk does not have a strong need for this storage but we are always willing to show a bid based on the current summer/winter spreads and cycling value.  The following assumptions were made to establish our bid:  5% daily injection capacity, 10% daily withdrawal capacity, 1% fuel (injection only), 0.01/MMBtu variable injection and withdrawal fees.  Also an undiscounted  June 01 to January 02 spread of $0.60 existed at the time of this bid.\n\nBid for a 1 year storage contract beginning June 01 based on above assumptions:  $0.05/ MMBtu/Month ($0.60/Year).  Demand charges only.\n\nI am not sure if this is exactly what you need or not.  Please call or email with comments.\n\nPhillip Allen\n\n",
+    "thread_id": "T-0019"
+  },
+  {
+    "message_id": "<32183437.1075855724164.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 08:57:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ned.higgins@enron.com",
+    "subject": "Re: Unocal WAHA Storage",
+    "body": "Ned,\n\nRegarding the Waha storage, the west desk does not have a strong need for \nthis storage but we are always willing to show a bid based on the current \nsummer/winter spreads and cycling value.  The following assumptions were made \nto establish our bid:  5% daily injection capacity, 10% daily withdrawal \ncapacity, 1% fuel (injection only), 0.01/MMBtu variable injection and \nwithdrawal fees.  Also an undiscounted  June 01 to January 02 spread of $0.60 \nexisted at the time of this bid.\n\nBid for a 1 year storage contract beginning June 01 based on above \nassumptions:  $0.05/ MMBtu/Month ($0.60/Year).  Demand charges only.\n\nI am not sure if this is exactly what you need or not.  Please call or email \nwith comments.\n\nPhillip Allen\n\n",
+    "thread_id": "T-0019"
+  },
+  {
+    "message_id": "<15164543.1075855378954.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 16:52:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "john.lavorato@enron.com",
+    "subject": "Re: This morning's Commission meeting delayed",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/25/2001 01:51 PM ---------------------------\n\n\nRay Alvarez@ENRON\n04/25/2001 11:48 AM\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\t \nSubject:\tRe: This morning's Commission meeting delayed   \n\nPhil,  I suspect that discussions/negotiations are taking place behind closed doors \"in smoke filled rooms\", if not directly between Commissioners then among FERC staffers.  Never say never, but I think it is highly unlikely that the final order will contain a fixed price cap.  I base this belief in large part on what I heard at a luncheon I attended yesterday afternoon at which the keynote speaker was FERC Chairman Curt Hebert.  Although the Chairman began his presentation by expressly stating that he would not comment or answer questions on pending proceedings before the Commission, Hebert had some enlightening comments which relate to price caps:\n\nPrice caps are almost never the right answer\nPrice Caps will have the effect of prolonging shortages\nCompetitive choices for consumers is the right answer\nAny solution, however short term, that does not increase supply or reduce demand, is not acceptable\nEight out of eleven western Governors oppose price caps, in that they would export California's problems to the West\n\nThis is the latest intelligence I have on the matter, and it's a pretty strong anti- price cap position.  Of course, Hebert is just one Commissioner out of 3 currently on the Commission, but he controls the meeting agenda and if the draft order is not to his liking, the item could be bumped off the agenda.  Hope this info helps.  Ray\n\n\n\n\nPhillip K Allen@ECT\n04/25/2001 02:28 PM\nTo:\tRay Alvarez/NA/Enron@ENRON\ncc:\t \n\nSubject:\tRe: This morning's Commission meeting delayed   \n\nAre there behind closed doors discussions being held prior to the meeting?  Is there the potential for a surprise announcement of some sort of fixed price gas or power cap once the open meeting finally happens?\n\n\n\n\n\n\n<Embedded StdOleLink>\n<Embedded StdOleLink>",
+    "thread_id": "T-0020"
+  },
+  {
+    "message_id": "<24578248.1075855378975.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 16:28:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ray.alvarez@enron.com",
+    "subject": "Re: This morning's Commission meeting delayed",
+    "body": "Are there behind closed doors discussions being held prior to the meeting?  Is there the potential for a surprise announcement of some sort of fixed price gas or power cap once the open meeting finally happens?",
+    "thread_id": "T-0020"
+  },
+  {
+    "message_id": "<9589423.1075855724187.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 06:52:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "john.lavorato@enron.com",
+    "subject": "Re: This morning's Commission meeting delayed",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/25/2001 \n01:51 PM ---------------------------\n\n\nRay Alvarez@ENRON\n04/25/2001 11:48 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Re: This morning's Commission meeting delayed  \n\nPhil,  I suspect that discussions/negotiations are taking place behind closed \ndoors \"in smoke filled rooms\", if not directly between Commissioners then \namong FERC staffers.  Never say never, but I think it is highly unlikely that \nthe final order will contain a fixed price cap.  I base this belief in large \npart on what I heard at a luncheon I attended yesterday afternoon at which \nthe keynote speaker was FERC Chairman Curt Hebert.  Although the Chairman \nbegan his presentation by expressly stating that he would not comment or \nanswer questions on pending proceedings before the Commission, Hebert had \nsome enlightening comments which relate to price caps:\n\nPrice caps are almost never the right answer\nPrice Caps will have the effect of prolonging shortages\nCompetitive choices for consumers is the right answer\nAny solution, however short term, that does not increase supply or reduce \ndemand, is not acceptable\nEight out of eleven western Governors oppose price caps, in that they would \nexport California's problems to the West\n\nThis is the latest intelligence I have on the matter, and it's a pretty \nstrong anti- price cap position.  Of course, Hebert is just one Commissioner \nout of 3 currently on the Commission, but he controls the meeting agenda and \nif the draft order is not to his liking, the item could be bumped off the \nagenda.  Hope this info helps.  Ray\n\n\n\n\nPhillip K Allen@ECT\n04/25/2001 02:28 PM\nTo: Ray Alvarez/NA/Enron@ENRON\ncc:  \n\nSubject: Re: This morning's Commission meeting delayed  \n\nAre there behind closed doors discussions being held prior to the meeting?  \nIs there the potential for a surprise announcement of some sort of fixed \nprice gas or power cap once the open meeting finally happens?\n\n\n\n",
+    "thread_id": "T-0020"
+  },
+  {
+    "message_id": "<7511296.1075855724208.JavaMail.evans@thyme>",
+    "date": "Wed, 25 Apr 2001 06:28:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ray.alvarez@enron.com",
+    "subject": "Re: This morning's Commission meeting delayed",
+    "body": "Are there behind closed doors discussions being held prior to the meeting?  \nIs there the potential for a surprise announcement of some sort of fixed \nprice gas or power cap once the open meeting finally happens?",
+    "thread_id": "T-0020"
+  },
+  {
+    "message_id": "<12747549.1075855691087.JavaMail.evans@thyme>",
+    "date": "Thu, 27 Apr 2000 06:40:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "hargr@webtv.net",
+    "subject": "Re: #30",
+    "body": "Kay & Neal,\n\nThanks for remembering my birthday.  You beat my parents by one day.  \n\nThe family is doing fine.  Grace is really smiling.  She is a very happy baby \nas long as she is being held.\n\nIt sounds like your house is coming along fast.  I think my folks are ready \nto start building.  \n\nWe will probably visit in late June or July.  May is busy.  We are taking the \nkids to Disney for their birthdays.\n\nGood luck on the house.\n\nKeith",
+    "thread_id": "T-0021"
+  },
+  {
+    "message_id": "<2068674.1075855691152.JavaMail.evans@thyme>",
+    "date": "Tue, 25 Apr 2000 05:22:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "hargr@webtv.net",
+    "subject": "Re: #30",
+    "body": "2000-1969=31",
+    "thread_id": "T-0021"
+  },
+  {
+    "message_id": "<3015963.1075855691108.JavaMail.evans@thyme>",
+    "date": "Wed, 26 Apr 2000 01:42:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "Western Strategy Session Materials",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/26/2000 \n08:40 AM ---------------------------\n\n\nTIM HEIZENRADER\n04/25/2000 11:43 AM\nTo: Jim Fallon/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT\ncc: Tim Belden/HOU/ECT@ECT \nSubject: Western Strategy Session Materials\n\nToday's charts are attached: \n",
+    "thread_id": "T-0022"
+  },
+  {
+    "message_id": "<22108874.1075855691129.JavaMail.evans@thyme>",
+    "date": "Wed, 26 Apr 2000 01:38:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "hector.campos@enron.com",
+    "subject": "Western Strategy Session Materials",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/26/2000 \n08:36 AM ---------------------------\n\n\nTIM HEIZENRADER\n04/25/2000 11:43 AM\nTo: Jim Fallon/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT\ncc: Tim Belden/HOU/ECT@ECT \nSubject: Western Strategy Session Materials\n\nToday's charts are attached: \n",
+    "thread_id": "T-0022"
+  },
+  {
+    "message_id": "<22908480.1075855691237.JavaMail.evans@thyme>",
+    "date": "Mon, 10 Apr 2000 07:09:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "frank.ermis@enron.com, steven.south@enron.com",
+    "subject": "Alliance netback worksheet",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/10/2000 \n02:09 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Julie A Gomez                           04/01/2000 07:11 AM\n\t\n\nTo: Hunter S Shively/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Alliance netback worksheet\n\nHello Men-\n\nI have attached my worksheet in case you want to review the data while I am \non holiday.\n\nThanks,\n\nJulie  :-)\n\n\n",
+    "thread_id": "T-0023"
+  },
+  {
+    "message_id": "<19273922.1075855691259.JavaMail.evans@thyme>",
+    "date": "Thu, 6 Apr 2000 05:18:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "mike.grigsby@enron.com",
+    "subject": "Alliance netback worksheet",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/06/2000 \n12:18 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Julie A Gomez                           04/01/2000 07:11 AM\n\t\n\nTo: Hunter S Shively/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Alliance netback worksheet\n\nHello Men-\n\nI have attached my worksheet in case you want to review the data while I am \non holiday.\n\nThanks,\n\nJulie  :-)\n\n\n",
+    "thread_id": "T-0023"
+  },
+  {
+    "message_id": "<1197112.1075855691450.JavaMail.evans@thyme>",
+    "date": "Thu, 23 Mar 2000 01:32:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "mark.miles@enron.com",
+    "subject": "Re: MS 150",
+    "body": "Mark,\n\n Thank you for the offer, but I am not doing the ride this year.  \n Good luck.\n\nPhillip",
+    "thread_id": "T-0024"
+  },
+  {
+    "message_id": "<22985472.1075855726316.JavaMail.evans@thyme>",
+    "date": "Tue, 6 Mar 2001 02:55:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "al.pollard@enron.com",
+    "subject": "Re: MS 150",
+    "body": "Al,\n\nI was not going to do the MS this year.  Thanks for the offer though.\n\nAll is well here.  We went to Colorado last week and the kids learned to \nski.  Work is same as always.\nHow are things going at New Power?  Is there any potential?\n\nPhillip",
+    "thread_id": "T-0024"
+  },
+  {
+    "message_id": "<19452788.1075855691536.JavaMail.evans@thyme>",
+    "date": "Tue, 21 Mar 2000 05:26:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "Maps",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/21/2000 \n01:24 PM ---------------------------\n\n\nStephane Brodeur\n03/16/2000 07:06 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Maps\n\nAs requested by John, here's the map and the forecast...\nCall me if you have any questions (403) 974-6756.\n\n",
+    "thread_id": "T-0025"
+  },
+  {
+    "message_id": "<20043519.1075855691578.JavaMail.evans@thyme>",
+    "date": "Thu, 16 Mar 2000 06:09:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "steven.south@enron.com",
+    "subject": "Maps",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/16/2000 \n02:07 PM ---------------------------\n\n\nStephane Brodeur\n03/16/2000 07:06 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Maps\n\nAs requested by John, here's the map and the forecast...\nCall me if you have any questions (403) 974-6756.\n\n",
+    "thread_id": "T-0025"
+  },
+  {
+    "message_id": "<24442933.1075855691664.JavaMail.evans@thyme>",
+    "date": "Tue, 14 Mar 2000 03:42:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "maryrichards7@hotmail.com",
+    "subject": "re: apt. #2",
+    "body": "re: window unit check with gary about what kind he wants to install",
+    "thread_id": "T-0026"
+  },
+  {
+    "message_id": "<19400637.1075855691771.JavaMail.evans@thyme>",
+    "date": "Mon, 13 Mar 2000 02:22:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "maryrichards7@hotmail.com",
+    "subject": "re: apt. #2",
+    "body": "Go ahead and level the floor in #2.  ",
+    "thread_id": "T-0026"
+  },
+  {
+    "message_id": "<25611018.1075855691707.JavaMail.evans@thyme>",
+    "date": "Mon, 13 Mar 2000 05:32:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "monique.sanchez@enron.com",
+    "subject": "Priority List",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/13/2000 \n01:30 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Phillip K Allen                           03/13/2000 11:31 AM\n\t\n\nTo: William Kelly/HOU/ECT@ECT, Steve Jackson/HOU/ECT@ECT, Brent A \nPrice/HOU/ECT@ECT\ncc:  \nSubject: Priority List\n\n\nWill,\n\n\nHere is a list of the top items we need to work on to improve the position \nand p&l reporting for the west desk.\nMy underlying goal is to create position managers and p&l reports that \nrepresent all the risk held by the desk\nand estimate p&l with great accuracy.\n\n\nLet's try and schedule a meeting for this Wednesday to go over the items \nabove.\n\nPhillip\n \n\n\n",
+    "thread_id": "T-0027"
+  },
+  {
+    "message_id": "<11165334.1075855691750.JavaMail.evans@thyme>",
+    "date": "Mon, 13 Mar 2000 05:31:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "william.kelly@enron.com, steve.jackson@enron.com, brent.price@enron.com",
+    "subject": "Priority List",
+    "body": "Will,\n\n\nHere is a list of the top items we need to work on to improve the position \nand p&l reporting for the west desk.\nMy underlying goal is to create position managers and p&l reports that \nrepresent all the risk held by the desk\nand estimate p&l with great accuracy.\n\n\nLet's try and schedule a meeting for this Wednesday to go over the items \nabove.\n\nPhillip\n \n",
+    "thread_id": "T-0027"
+  },
+  {
+    "message_id": "<19583103.1075855379044.JavaMail.evans@thyme>",
+    "date": "Tue, 24 Apr 2001 17:26:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "mike.grigsby@enron.com, keith.holst@enron.com, matthew.lenhart@enron.com, \n\tmonique.sanchez@enron.com, randall.gay@enron.com, \n\tfrank.ermis@enron.com, jane.tholt@enron.com, \n\ttori.kuykendall@enron.com, steven.south@enron.com, \n\tjay.reitmeyer@enron.com, susan.scott@enron.com",
+    "subject": "Instructions for FERC Meetings",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/24/2001 02:23 PM ---------------------------\n\n\nEric Benson@ENRON on 04/24/2001 11:47:40 AM\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\t \nSubject:\tInstructions for FERC Meetings\n\nMr. Allen - \n\nPer our phone conversation, please see the instructions below to get access to view FERC meetings.  Please advise if there are any problems, questions or concerns.\n\nEric Benson\nSr. Specialist\nEnron Government Affairs - The Americas\n713-853-1711\n\n++++++++++++++++++++++++++\n\n----- Forwarded by Eric Benson/NA/Enron on 04/24/2001 01:45 PM -----\n\n\tJanet Butler 11/06/2000 04:51 PM \t   To: Eric.Benson@enron.com, Steve.Kean@enron.com, Richard.Shapiro@enron.com  cc:   Subject: Instructions for FERC Meetings\t\n\n\nAs long as you are configured to receive Real Video, you should be able to access the FERC meeting this Wednesday, November 8.  The instructions are below.\n\n\n---------------------- Forwarded by Janet Butler/ET&S/Enron on 11/06/2000 04:49 PM ---------------------------\n\n\nJanet Butler\n10/31/2000 04:12 PM\nTo:\tChristi.L.Nicolay@enron.com, James D Steffes/NA/Enron@Enron, Rebecca.Cantrell@enron.com\ncc:\tShelley Corman/ET&S/Enron@Enron \n\nSubject:\tInstructions for FERC Meetings\n\n \t\t\n\n\nHere is the URL address for the Capitol Connection.  You should be able to simply click on this URL below and it should come up for you.  (This is assuming your computer is configured for Real Video/Audio).  We will pay for the annual contract and bill your cost centers.\n\nYou are connected for tomorrow as long as you have access to Real Video.\n\nhttp://www.capitolconnection.gmu.edu/\n\nInstructions:\n\nOnce into the Capitol Connection sight, click on FERC\nClick on first line (either \"click here\" or box)\nDialogue box should require:  user name:  enron-y\n\t\t\t           password:  fercnow\n\nReal Player will connect you to the meeting\n\nExpand your screen as you wish for easier viewing\n\nAdjust your sound as you wish\n\n\n\n\n\n",
+    "thread_id": "T-0028"
+  },
+  {
+    "message_id": "<15309963.1075855724278.JavaMail.evans@thyme>",
+    "date": "Tue, 24 Apr 2001 07:26:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "mike.grigsby@enron.com, keith.holst@enron.com, matthew.lenhart@enron.com, \n\tmonique.sanchez@enron.com, randall.gay@enron.com, \n\tfrank.ermis@enron.com, jane.tholt@enron.com, \n\ttori.kuykendall@enron.com, steven.south@enron.com, \n\tjay.reitmeyer@enron.com, susan.scott@enron.com",
+    "subject": "Instructions for FERC Meetings",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/24/2001 \n02:23 PM ---------------------------\n\n\nEric Benson@ENRON on 04/24/2001 11:47:40 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Instructions for FERC Meetings\n\nMr. Allen - \n\nPer our phone conversation, please see the instructions below to get access \nto view FERC meetings.  Please advise if there are any problems, questions or \nconcerns.\n\nEric Benson\nSr. Specialist\nEnron Government Affairs - The Americas\n713-853-1711\n\n++++++++++++++++++++++++++\n\n----- Forwarded by Eric Benson/NA/Enron on 04/24/2001 01:45 PM -----\n\n\tJanet Butler\n\t11/06/2000 04:51 PM\n\t\t \n\t\t To: Eric.Benson@enron.com, Steve.Kean@enron.com, Richard.Shapiro@enron.com\n\t\t cc: \n\t\t Subject: Instructions for FERC Meetings\n\nAs long as you are configured to receive Real Video, you should be able to \naccess the FERC meeting this Wednesday, November 8.  The instructions are \nbelow.\n\n\n---------------------- Forwarded by Janet Butler/ET&S/Enron on 11/06/2000 \n04:49 PM ---------------------------\n\n\nJanet Butler\n10/31/2000 04:12 PM\nTo: Christi.L.Nicolay@enron.com, James D Steffes/NA/Enron@Enron, \nRebecca.Cantrell@enron.com\ncc: Shelley Corman/ET&S/Enron@Enron \n\nSubject: Instructions for FERC Meetings\n\n\n\t\n\nHere is the URL address for the Capitol Connection.  You should be able to \nsimply click on this URL below and it should come up for you.  (This is \nassuming your computer is configured for Real Video/Audio).  We will pay for \nthe annual contract and bill your cost centers.\n\nYou are connected for tomorrow as long as you have access to Real Video.\n\nhttp://www.capitolconnection.gmu.edu/\n\nInstructions:\n\nOnce into the Capitol Connection sight, click on FERC\nClick on first line (either \"click here\" or box)\nDialogue box should require:  user name:  enron-y\n              password:  fercnow\n\nReal Player will connect you to the meeting\n\nExpand your screen as you wish for easier viewing\n\nAdjust your sound as you wish\n\n\n\n\n\n",
+    "thread_id": "T-0028"
+  },
+  {
+    "message_id": "<2398018.1075855692214.JavaMail.evans@thyme>",
+    "date": "Fri, 11 Feb 2000 04:31:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "RE: W basis quotes",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/11/2000 \n12:31 PM ---------------------------\n\n\n\"George Rahal\" <george.rahal@acnpower.com> on 02/07/2000 03:13:58 PM\nTo: <Phillip_K_Allen@enron.com>\ncc:  \nSubject: RE: W basis quotes\n\n\nI'll get back to them on this.  I know we have sent financials to Clinton\nEnergy...I'll check to see if this is enough.  In the meantime, is it\npossible to show me indications on the quotes I asked for?  Please advise.\nGeorge\n\nGeorge Rahal\nManager, Gas Trading\nACN Power, Inc.\n7926 Jones Branch Drive, Suite 630\nMcLean, VA 22102-3303\nPhone  (703)893-4330 ext. 1023\nFax  (703)893-4390\nCell (443)255-7699\n\n> -----Original Message-----\n> From: Phillip_K_Allen@enron.com [mailto:Phillip_K_Allen@enron.com]\n> Sent: Monday, February 07, 2000 5:54 PM\n> To: george.rahal@acnpower.com\n> Subject: Re: W basis quotes\n>\n>\n>\n> George,\n>\n>      Can you please call my credit desk at 713-853-1803.  They have not\n> received any financials for ACN Power.\n>\n> Thanks,\n>\n> Phillip Allen\n>\n>\n\n",
+    "thread_id": "T-0029"
+  },
+  {
+    "message_id": "<4627792.1075855692236.JavaMail.evans@thyme>",
+    "date": "Wed, 9 Feb 2000 02:27:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "RE: W basis quotes",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/09/2000 \n10:27 AM ---------------------------\n\n\n\"George Rahal\" <george.rahal@acnpower.com> on 02/07/2000 03:13:58 PM\nTo: <Phillip_K_Allen@enron.com>\ncc:  \nSubject: RE: W basis quotes\n\n\nI'll get back to them on this.  I know we have sent financials to Clinton\nEnergy...I'll check to see if this is enough.  In the meantime, is it\npossible to show me indications on the quotes I asked for?  Please advise.\nGeorge\n\nGeorge Rahal\nManager, Gas Trading\nACN Power, Inc.\n7926 Jones Branch Drive, Suite 630\nMcLean, VA 22102-3303\nPhone  (703)893-4330 ext. 1023\nFax  (703)893-4390\nCell (443)255-7699\n\n> -----Original Message-----\n> From: Phillip_K_Allen@enron.com [mailto:Phillip_K_Allen@enron.com]\n> Sent: Monday, February 07, 2000 5:54 PM\n> To: george.rahal@acnpower.com\n> Subject: Re: W basis quotes\n>\n>\n>\n> George,\n>\n>      Can you please call my credit desk at 713-853-1803.  They have not\n> received any financials for ACN Power.\n>\n> Thanks,\n>\n> Phillip Allen\n>\n>\n\n",
+    "thread_id": "T-0029"
+  },
+  {
+    "message_id": "<8220274.1075855379087.JavaMail.evans@thyme>",
+    "date": "Tue, 24 Apr 2001 13:05:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: The Stage",
+    "body": "I just spoke to the insurance company.  They are going to cancel and prorate my policy and work with the Kuo's to issue a new policy.",
+    "thread_id": "T-0030"
+  },
+  {
+    "message_id": "<20583871.1075855724320.JavaMail.evans@thyme>",
+    "date": "Tue, 24 Apr 2001 03:05:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: The Stage",
+    "body": "I just spoke to the insurance company.  They are going to cancel and prorate \nmy policy and work with the Kuo's to issue a new policy.",
+    "thread_id": "T-0030"
+  },
+  {
+    "message_id": "<7973287.1075855724728.JavaMail.evans@thyme>",
+    "date": "Thu, 12 Apr 2001 02:59:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: The Stage",
+    "body": "I will try and get my dad to take the appraiser into a couple of units.  Let \nme know the day and time.\n\nPhillip",
+    "thread_id": "T-0030"
+  },
+  {
+    "message_id": "<28100361.1075855727849.JavaMail.evans@thyme>",
+    "date": "Wed, 31 Jan 2001 08:20:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: The Stage",
+    "body": "Jeff,\n\nBefore you write off the stage, a few things to think about.\n\n1.  Operating expenses include $22,000 of materials for maintenance and \nrepairs.  Plus having a full time onsite maintenance man means no extra labor \ncost for repairs.  There are only 44 units a lot of his time is spent on \nrepairs.\n\n2.  What is an outside management firm going to do?  A full time onsite \nmanager is all that is required.  As I mentioned the prior manager has \ninterest in returning.  Another alternative would be to hire a male manager \nthat could do more make readies and lawn care.  If you turn it over to a \nmanagement company you could surely reduce the cost of a full time manager \nonsite.\n\n3.  Considering #1 & #2 $115,000 NOI is not necessarily overstated.  If you \nwant to be ultra conservative use $100,000 at the lowest.\n\n4.  Getting cash out is not a priority to me.  So I am willing to structure \nthis deal with minimum cash.  A 10% note actually attractive. See below.\n\nMy job just doesn't give me the time to manage this property.  This property \ndefinitely requires some time but it has the return to justify the effort.\n\n\nSales Price  705,000\n\n1st Lien   473,500\n\n2nd Lien  225,000\n\nTransfer fee    7,500\n\nCash required   14,500\n\n\nNOI   100,000\n\n1st Lien    47,292\n\n2nd Lien   23,694\n\nCash flow  29,014\n\nCash on cash  200%\n\n\nThese numbers are using the conservative NOI, if it comes in at $115K then \ncash on cash return would be more like 300%.   This doesn't reflect the \nadditional profit opportunity of selling the property in the next few years \nfor a higher price.\n\nDo you want to reconsider?  Let me know.\n\nPhillip\n",
+    "thread_id": "T-0030"
+  },
+  {
+    "message_id": "<140197.1075855692257.JavaMail.evans@thyme>",
+    "date": "Wed, 9 Feb 2000 02:12:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "william.kelly@enron.com",
+    "subject": "Re: APEA - $228,204 hit",
+    "body": "Please get with randy to resolve.",
+    "thread_id": "T-0031"
+  },
+  {
+    "message_id": "<18698203.1075855692343.JavaMail.evans@thyme>",
+    "date": "Mon, 7 Feb 2000 07:36:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "william.kelly@enron.com",
+    "subject": "Re: APEA - $228,204 hit",
+    "body": "is this still an issue?",
+    "thread_id": "T-0031"
+  },
+  {
+    "message_id": "<10314616.1075855379153.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 13:45:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "andrea.richards@enron.com",
+    "subject": "Re: Analyst Ashish Mahajan",
+    "body": "Send his resume to Karen Buckley.  I believe there will be a full round of interviews for the trading track in May.",
+    "thread_id": "T-0032"
+  },
+  {
+    "message_id": "<25044649.1075855724384.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 03:45:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "andrea.richards@enron.com",
+    "subject": "Re: Analyst Ashish Mahajan",
+    "body": "Send his resume to Karen Buckley.  I believe there will be a full round of \ninterviews for the trading track in May.",
+    "thread_id": "T-0032"
+  },
+  {
+    "message_id": "<31424216.1075855723750.JavaMail.evans@thyme>",
+    "date": "Mon, 7 May 2001 02:28:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "matthew.lenhart@enron.com, jay.reitmeyer@enron.com, matt.smith@enron.com",
+    "subject": "Re: Western Wholesale Activities - Gas & Power Conf. Call",
+    "body": "Can you guys coordinate to make sure someone listens to this conference call \neach week.  Tara from the fundamental group was recording these calls when \nthey happened every day.\n\nPhillip\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/07/2001 \n07:26 AM ---------------------------\n\n\nJames D Steffes@ENRON\n05/03/2001 05:44 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Re: Western Wholesale Activities - Gas & Power Conf. Call\nPrivileged & Confidential Communication\nAttorney-Client Communication and Attorney Work Product Privileges Asserted\n\nPlease forward to anyone on your team that wants updates on Western wholesale \nmatters (should also give you an opportunity to raise state matters if you \nwant to discuss).\n\nJim\n---------------------- Forwarded by James D Steffes/NA/Enron on 05/03/2001 \n07:42 AM ---------------------------\n\n\nRay Alvarez\n05/02/2001 05:40 PM\nTo: Steve Walton/HOU/ECT@ECT, Susan J Mara/NA/Enron@ENRON, Alan \nComnes/PDX/ECT@ECT, Leslie Lawner/NA/Enron@Enron, Rebecca W \nCantrell/HOU/ECT@ECT, Donna Fulton/Corp/Enron@ENRON, Jeff \nDasovich/NA/Enron@Enron, Christi L Nicolay/HOU/ECT@ECT, James D \nSteffes/NA/Enron@Enron, jalexander@gibbs-bruns.com, Phillip K \nAllen/HOU/ECT@ECT\ncc: Linda J Noske/HOU/ECT@ECT \n\nSubject: Re: Western Wholesale Activities - Gas & Power Conf. Call\nPrivileged & Confidential Communication\nAttorney-Client Communication and Attorney Work Product Privileges Asserted\n\nDate:   Every Thursday\nTime:    1:00 pm Pacific, 3:00 pm Central, and 4:00 pm Eastern time,\n Number:   1-888-271-0949, \n Host Code:  661877, (for Jim only),\n Participant Code: 936022, (for everyone else),\n\nAttached is the table of the on-going FERC issues and proceedings updated for \nuse on tomorrow's conference call.  It is available to all team members on \nthe O drive. Please feel free to revise/add to/ update this table as \nappropriate.\n\nProposed agenda for tomorrow:\n\nPower-  Discussion of FERC market monitoring and mitigation order in \nEL00-95-12 and review of upcoming filings\nGas- Response to subpoenas of SoCal Edison in RP00-241 and upcoming items\nMisc.\n\nI will be unable to participate in the call tomorrow as I will be attending \nthe Senate Energy and Resource Committee Hearing on the elements of the FERC \nmarket monitoring and mitigation order.\n\n\n\n\n\n",
+    "thread_id": "T-0033"
+  },
+  {
+    "message_id": "<14983560.1075855723797.JavaMail.evans@thyme>",
+    "date": "Fri, 4 May 2001 05:18:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "mike.grigsby@enron.com, keith.holst@enron.com, frank.ermis@enron.com, \n\tjane.tholt@enron.com, jay.reitmeyer@enron.com, \n\ttori.kuykendall@enron.com, matthew.lenhart@enron.com",
+    "subject": "Re: Western Wholesale Activities - Gas & Power Conf. Call",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 05/04/2001 \n10:15 AM ---------------------------\n\n\nJames D Steffes@ENRON\n05/03/2001 05:44 AM\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: Re: Western Wholesale Activities - Gas & Power Conf. Call\nPrivileged & Confidential Communication\nAttorney-Client Communication and Attorney Work Product Privileges Asserted\n\nPlease forward to anyone on your team that wants updates on Western wholesale \nmatters (should also give you an opportunity to raise state matters if you \nwant to discuss).\n\nJim\n---------------------- Forwarded by James D Steffes/NA/Enron on 05/03/2001 \n07:42 AM ---------------------------\n\n\nRay Alvarez\n05/02/2001 05:40 PM\nTo: Steve Walton/HOU/ECT@ECT, Susan J Mara/NA/Enron@ENRON, Alan \nComnes/PDX/ECT@ECT, Leslie Lawner/NA/Enron@Enron, Rebecca W \nCantrell/HOU/ECT@ECT, Donna Fulton/Corp/Enron@ENRON, Jeff \nDasovich/NA/Enron@Enron, Christi L Nicolay/HOU/ECT@ECT, James D \nSteffes/NA/Enron@Enron, jalexander@gibbs-bruns.com, Phillip K \nAllen/HOU/ECT@ECT\ncc: Linda J Noske/HOU/ECT@ECT \n\nSubject: Re: Western Wholesale Activities - Gas & Power Conf. Call\nPrivileged & Confidential Communication\nAttorney-Client Communication and Attorney Work Product Privileges Asserted\n\nDate:   Every Thursday\nTime:    1:00 pm Pacific, 3:00 pm Central, and 4:00 pm Eastern time,\n Number:   1-888-271-0949, \n Host Code:  661877, (for Jim only),\n Participant Code: 936022, (for everyone else),\n\nAttached is the table of the on-going FERC issues and proceedings updated for \nuse on tomorrow's conference call.  It is available to all team members on \nthe O drive. Please feel free to revise/add to/ update this table as \nappropriate.\n\nProposed agenda for tomorrow:\n\nPower-  Discussion of FERC market monitoring and mitigation order in \nEL00-95-12 and review of upcoming filings\nGas- Response to subpoenas of SoCal Edison in RP00-241 and upcoming items\nMisc.\n\nI will be unable to participate in the call tomorrow as I will be attending \nthe Senate Energy and Resource Committee Hearing on the elements of the FERC \nmarket monitoring and mitigation order.\n\n\n\n\n\n",
+    "thread_id": "T-0033"
+  },
+  {
+    "message_id": "<15569399.1075855379175.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 13:40:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "matthew.lenhart@enron.com",
+    "subject": "Re: Resume",
+    "body": "Have him send his resume to Karen Buckley in HR.  There is a new round of trading track interviews in May.\n",
+    "thread_id": "T-0034"
+  },
+  {
+    "message_id": "<18621193.1075855724406.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 03:40:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "matthew.lenhart@enron.com",
+    "subject": "Re: Resume",
+    "body": "Have him send his resume to Karen Buckley in HR.  There is a new round of \ntrading track interviews in May.\n",
+    "thread_id": "T-0034"
+  },
+  {
+    "message_id": "<22637883.1075855724534.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 07:21:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "chad.landry@enron.com",
+    "subject": "Re: Resume",
+    "body": "Chad,\n\nCall Ted Bland about the trading track program.  All the desks are trying to \nuse this program to train analysts to be traders.  Your experience should \nhelp you in the process and make the risk rotation unnecessary. Unless you \nare dying to do another rotation is risk.\n\nPhillip ",
+    "thread_id": "T-0034"
+  },
+  {
+    "message_id": "<5537546.1075855379304.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 17:21:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "chad.landry@enron.com",
+    "subject": "Re: Resume",
+    "body": "Chad,\n\nCall Ted Bland about the trading track program.  All the desks are trying to use this program to train analysts to be traders.  Your experience should help you in the process and make the risk rotation unnecessary. Unless you are dying to do another rotation is risk.\n\nPhillip ",
+    "thread_id": "T-0034"
+  },
+  {
+    "message_id": "<18949220.1075855728276.JavaMail.evans@thyme>",
+    "date": "Thu, 25 Jan 2001 04:45:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "nick.politis@enron.com",
+    "subject": "Re: Resume",
+    "body": "Nick,\n\nThere is a specific program that we are using to recruit, train, and mentor \nnew traders on the gas and power desks.    The trading track program is being \ncoordinated by Ted Bland.  I have forwarded him your resume.  Give him a call \nand he will fill you in on the details of the program.\n\nPhillip",
+    "thread_id": "T-0034"
+  },
+  {
+    "message_id": "<17428641.1075855379196.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 13:40:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "andrea.richards@enron.com",
+    "subject": "Re: Analyst Bryan Hull",
+    "body": "Andrea,\n\nAfter reviewing Bryan Hull's resume, I think he would be best suited for the trading track program.  Please forward his resume to Karen Buckley.\n\nPhillip",
+    "thread_id": "T-0035"
+  },
+  {
+    "message_id": "<4213874.1075855724427.JavaMail.evans@thyme>",
+    "date": "Mon, 23 Apr 2001 03:40:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "andrea.richards@enron.com",
+    "subject": "Re: Analyst Bryan Hull",
+    "body": "Andrea,\n\nAfter reviewing Bryan Hull's resume, I think he would be best suited for the \ntrading track program.  Please forward his resume to Karen Buckley.\n\nPhillip",
+    "thread_id": "T-0035"
+  },
+  {
+    "message_id": "<3401311.1075855724513.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 07:51:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "RE: Presentation to Trading Track A&A",
+    "body": "Ina, \n\nCan you please forward the presentation to Mog.\n\nPhillip\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/18/2001 \n02:50 PM ---------------------------\nFrom: Karen Buckley/ENRON@enronXgate on 04/18/2001 10:56 AM CDT\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: RE: Presentation to Trading Track A&A\n\nHi Philip\n\nIf you do have slides preapred,, can you have your assistant e:mail a copy to \nMog Heu, who will conference in from New York.\n\nThanks, karen\n\n -----Original Message-----\nFrom:  Allen, Phillip  \nSent: Wednesday, April 18, 2001 10:30 AM\nTo: Buckley, Karen\nSubject: Re: Presentation to Trading Track A&A\n\nThe topic will the the western natural gas market.  I may have overhead \nslides.  I will bring handouts.\n",
+    "thread_id": "T-0036"
+  },
+  {
+    "message_id": "<30542109.1075855379282.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 17:51:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "RE: Presentation to Trading Track A&A",
+    "body": "Ina, \n\nCan you please forward the presentation to Mog.\n\nPhillip\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/18/2001 02:50 PM ---------------------------\nFrom:\tKaren Buckley/ENRON@enronXgate on 04/18/2001 10:56 AM CDT\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\t \nSubject:\tRE: Presentation to Trading Track A&A\n\nHi Philip\n\nIf you do have slides preapred,, can you have your assistant e:mail a copy to Mog Heu, who will conference in from New York.\n\nThanks, karen\n\n -----Original Message-----\nFrom: \tAllen, Phillip  \nSent:\tWednesday, April 18, 2001 10:30 AM\nTo:\tBuckley, Karen\nSubject:\tRe: Presentation to Trading Track A&A\n\nThe topic will the the western natural gas market.  I may have overhead slides.  I will bring handouts.\n",
+    "thread_id": "T-0036"
+  },
+  {
+    "message_id": "<1199774.1075855724555.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 03:58:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: FW: 2nd lien info. and private lien info - The Stage Coach\n Apartments, Phillip Allen",
+    "body": "How am I to send them the money for the silent second?  Regular mail, \novernight, wire transfer?  I don't see how their bank will make the funds \navailable by Friday unless I wire the money.  If that is what I need to do \nplease send wiring instructions.",
+    "thread_id": "T-0037"
+  },
+  {
+    "message_id": "<23096779.1075855379325.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 13:58:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: FW: 2nd lien info. and private lien info - The Stage Coach\n Apartments, Phillip Allen",
+    "body": "How am I to send them the money for the silent second?  Regular mail, overnight, wire transfer?  I don't see how their bank will make the funds available by Friday unless I wire the money.  If that is what I need to do please send wiring instructions.",
+    "thread_id": "T-0037"
+  },
+  {
+    "message_id": "<31951356.1075855724577.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 03:30:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "karen.buckley@enron.com",
+    "subject": "Re: Presentation to Trading Track A&A",
+    "body": "The topic will the the western natural gas market.  I may have overhead \nslides.  I will bring handouts.",
+    "thread_id": "T-0038"
+  },
+  {
+    "message_id": "<29908325.1075855379346.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 13:30:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "karen.buckley@enron.com",
+    "subject": "Re: Presentation to Trading Track A&A",
+    "body": "The topic will the the western natural gas market.  I may have overhead slides.  I will bring handouts.",
+    "thread_id": "T-0038"
+  },
+  {
+    "message_id": "<12072189.1075855724619.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 01:11:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com, frank.ermis@enron.com, mike.grigsby@enron.com",
+    "subject": "approved trader list",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/18/2001 \n08:10 AM ---------------------------\nTo: Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: approved trader list\n\nEnron Wholesale Services (EES Gas Desk)\n\nApproved Trader List:\n\n\n\nName    Title    Region  Basis Only\n\nBlack, Don   Vice President   Any Desk\n\nHewitt, Jess   Director    All Desks\nVanderhorst, Barry  Director    East, West \nShireman, Kris   Director    West\nDes Champs, Joe  Director    Central\nReynolds, Roger   Director    West\n\nMigliano, Andy    Manager   Central\nWiltfong, Jim   Manager   All Desks\n\nBarker, Jim   Sr, Specialist   East\nFleming, Matt   Sr. Specialist   East - basis only\nTate, Paul   Sr. Specialist   East - basis only\nDriscoll, Marde   Sr. Specialist   East - basis only\nArnold, Laura   Sr. Specialist   Central - basis only \nBlaine, Jay   Sr. Specialist   East - basis only\nGuerra, Jesus   Sr. Specialist   Central - basis only\nBangle, Christina  Sr. Specialist   East - basis only\nSmith, Rhonda   Sr. Specialist   East - basis only\nBoettcher, Amanda  Sr. Specialist   Central - basis only\nPendegraft, Sherry  Sr. Specialist   East - basis only\nRuby Robinson   Specialist   West - basis only\nDiza, Alain   Specialist   East - basis only\n\nMonday, April 16, 2001\nJess P. Hewitt\nRevised\nApproved Trader List.doc\n",
+    "thread_id": "T-0039"
+  },
+  {
+    "message_id": "<28664186.1075855379389.JavaMail.evans@thyme>",
+    "date": "Wed, 18 Apr 2001 11:11:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com, frank.ermis@enron.com, mike.grigsby@enron.com",
+    "subject": "approved trader list",
+    "body": "\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 04/18/2001 08:10 AM ---------------------------\nTo:\tPhillip K Allen/HOU/ECT@ECT\ncc:\t \nSubject:\tapproved trader list\n\nEnron Wholesale Services (EES Gas Desk)\n\nApproved Trader List:\n\n\n\nName\t\t\t\tTitle\t\t\t\tRegion\t\tBasis Only\n\nBlack, Don\t\t\tVice President\t\t\tAny Desk\n\nHewitt, Jess\t\t\tDirector\t\t\t\tAll Desks\nVanderhorst, Barry\t\tDirector\t\t\t\tEast, West\t\nShireman, Kris\t\t\tDirector\t\t\t\tWest\nDes Champs, Joe\t\tDirector\t\t\t\tCentral\nReynolds, Roger \t\tDirector\t\t\t\tWest\n\nMigliano, Andy \t\t\tManager\t\t\tCentral\nWiltfong, Jim\t\t\tManager\t\t\tAll Desks\n\nBarker, Jim\t\t\tSr, Specialist\t\t\tEast\nFleming, Matt\t\t\tSr. Specialist\t\t\tEast - basis only\nTate, Paul\t\t\tSr. Specialist\t\t\tEast - basis only\nDriscoll, Marde\t\t\tSr. Specialist\t\t\tEast - basis only\nArnold, Laura\t\t\tSr. Specialist\t\t\tCentral - basis only\t\nBlaine, Jay\t\t\tSr. Specialist\t\t\tEast - basis only\nGuerra, Jesus\t\t\tSr. Specialist\t\t\tCentral - basis only\nBangle, Christina\t\tSr. Specialist\t\t\tEast - basis only\nSmith, Rhonda\t\t\tSr. Specialist\t\t\tEast - basis only\nBoettcher, Amanda\t\tSr. Specialist\t\t\tCentral - basis only\nPendegraft, Sherry\t\tSr. Specialist\t\t\tEast - basis only\nRuby Robinson\t\t\tSpecialist\t\t\tWest - basis only\nDiza, Alain\t\t\tSpecialist\t\t\tEast - basis only\n\nMonday, April 16, 2001\nJess P. Hewitt\nRevised\nApproved Trader List.doc\n",
+    "thread_id": "T-0039"
+  },
+  {
+    "message_id": "<27189735.1075855724641.JavaMail.evans@thyme>",
+    "date": "Mon, 16 Apr 2001 03:34:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: insurance - the stage",
+    "body": "The insurance company is: \n\nCentral Insurance Agency, Inc\n6000 N., Lamar\nP.O. Box 15427\nAustin, TX 78761-5427\n\nPolicy #CBI420478\n\nContact:  Jeanette Peterson\n\n(512)451-6551\n\nThe actual policy is signed by Vista Insurance Partners.\n\nPlease try and schedule the appraiser for sometime after 1 p.m. so my Dad can \nwalk him around.  \n\nI will be out of town on Tuesday.  What else do we need to get done before \nclosing?\n\nPhillip",
+    "thread_id": "T-0040"
+  },
+  {
+    "message_id": "<18008283.1075855379411.JavaMail.evans@thyme>",
+    "date": "Mon, 16 Apr 2001 13:34:00 -0700 (PDT)",
+    "from": "phillip.allen@enron.com",
+    "to": "jsmith@austintx.com",
+    "subject": "Re: insurance - the stage",
+    "body": "The insurance company is: \n\nCentral Insurance Agency, Inc\n6000 N., Lamar\nP.O. Box 15427\nAustin, TX 78761-5427\n\nPolicy #CBI420478\n\nContact:  Jeanette Peterson\n\n(512)451-6551\n\nThe actual policy is signed by Vista Insurance Partners.\n\nPlease try and schedule the appraiser for sometime after 1 p.m. so my Dad can walk him around.  \n\nI will be out of town on Tuesday.  What else do we need to get done before closing?\n\nPhillip",
+    "thread_id": "T-0040"
+  },
+  {
+    "message_id": "<24677137.1075855725220.JavaMail.evans@thyme>",
+    "date": "Thu, 29 Mar 2001 02:11:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "scfatkfa@caprock.net",
+    "subject": "Nondeliverable mail",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/29/2001 \n10:10 AM ---------------------------\n\n\n<postmaster@caprock.net> on 03/29/2001 07:58:51 AM\nTo: Phillip.K.Allen@enron.com\ncc:  \nSubject: Nondeliverable mail\n\n\nCary,\n\nHere is the picture of the house I have in mind.  I was going for a simple\nfarmhouse style to  place on 5 acres near Wimberley.\n\nA few points that might not be obvious from the plans are:\n\nThere will be a double porch across the back just like the front\nNo dormers (Metal roof)\n1/2 bath under stairs\nOverall dimensions are 55 by 40\n\n\nWhat I am looking for is a little design help in the kitchen.  More\ncabinets, maybe a different shaped island, and a way to enlarge the pantry.\nReagan\nsuggested that I find a way to make the exterior more attractive.  I want\nto keep a simple roof line to avoid leaks, but I was thinking about\nbringing the left\nside forward in the front of the house and place 1 gable in the front.\nThat might look good if the exterior was stone and stucco.  Also the front\nporch would\nbe smaller.\n\nI have 3 bids from builders all around $325,000.  I am ready to go ahead\nand have the plans done so I can spec out all the finishings and choose a\nbuilder.\nI just wanted to give you the opportunity to do the work.  As I mentioned\nmy alternative is $0.60/ft.  I thought that since I had a such a detailed\nsketch, you might consider the job for less than the $6,000 that Reagan\nallowed.\n\nPhillip Allen\n713-853-7041\n\n\n\n\n\n\n\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/29/2001\n09:10 AM ---------------------------\n\n\nHunter S Shively\n03/26/2001 10:01 AM\n\nTo:   phillip.k.allen@enron.com\ncc:\nSubject:\n\n(See attached file: F828FA00.PDF)\n\n\n(See attached file: F828FA00.PDF)\n\n\n - F828FA00.PDF\n",
+    "thread_id": "T-0041"
+  },
+  {
+    "message_id": "<15873524.1075855725244.JavaMail.evans@thyme>",
+    "date": "Thu, 29 Mar 2001 02:03:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "scsatkfa@caprock.net",
+    "subject": "Nondeliverable mail",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/29/2001 \n10:03 AM ---------------------------\n\n\n<postmaster@caprock.net> on 03/29/2001 07:36:51 AM\nTo: Phillip.K.Allen@enron.com\ncc:  \nSubject: Nondeliverable mail\n\n\n------Transcript of session follows -------\nscsatkfa@caprock.net\nThe user's email name is not found.\n\n\n\nReceived: from postmaster.enron.com ([192.152.140.9]) by mail1.caprock.net  \nwith Microsoft SMTPSVC(5.5.1877.197.19);  Thu, 29 Mar 2001 09:36:49 -0600\nReceived: from mailman.enron.com (mailman.enron.com [192.168.189.66]) by \npostmaster.enron.com (8.8.8/8.8.8/postmaster-1.00) with ESMTP id PAB09150 for \n<scsatkfa@caprock.net>; Thu, 29 Mar 2001 15:42:03 GMT\nFrom: Phillip.K.Allen@enron.com\nReceived: from nahou-msmsw03px.corp.enron.com ([172.28.10.39]) by \nmailman.enron.com (8.10.1/8.10.1/corp-1.05) with ESMTP id f2TFg2L03725 for \n<scsatkfa@caprock.net>; Thu, 29 Mar 2001 09:42:02 -0600 (CST)\nReceived: from ene-mta01.enron.com (unverified) by \nnahou-msmsw03px.corp.enron.com (Content Technologies SMTPRS 4.1.5) with ESMTP \nid <Tac1c0a2752962e2481@nahou-msmsw03px.corp.enron.com> for \n<scsatkfa@caprock.net>; Thu, 29 Mar 2001 09:42:04 -0600\nTo: scsatkfa@caprock.net\nDate: Thu, 29 Mar 2001 09:41:58 -0600\nMessage-ID: <OF1845F8DC.31DE1EAF-ON86256A1E.00535FA2@enron.com>\nX-MIMETrack: Serialize by Router on ENE-MTA01/Enron(Release 5.0.6 |December \n14, 2000) at 03/29/2001 09:38:28 AM\nMIME-Version: 1.0\nContent-type: multipart/mixed ; \nBoundary=\"0__=86256A1E00535FA28f9e8a93df938690918c86256A1E00535FA2\"\nContent-Disposition: inline\nReturn-Path: Phillip.K.Allen@enron.com\n\nCary,\n\nHere is the picture of the house I have in mind.  I was going for a simple\nfarmhouse style to  place on 5 acres near Wimberley.\n\nA few points that might not be obvious from the plans are:\n\nThere will be a double porch across the back just like the front\nNo dormers (Metal roof)\n1/2 bath under stairs\nOverall dimensions are 55 by 40\n\n\nWhat I am looking for is a little design help in the kitchen.  More\ncabinets, maybe a different shaped island, and a way to enlarge the pantry.\nReagan\nsuggested that I find a way to make the exterior more attractive.  I want\nto keep a simple roof line to avoid leaks, but I was thinking about\nbringing the left\nside forward in the front of the house and place 1 gable in the front.\nThat might look good if the exterior was stone and stucco.  Also the front\nporch would\nbe smaller.\n\nI have 3 bids from builders all around $325,000.  I am ready to go ahead\nand have the plans done so I can spec out all the finishings and choose a\nbuilder.\nI just wanted to give you the opportunity to do the work.  As I mentioned\nmy alternative is $0.60/ft.  I thought that since I had a such a detailed\nsketch, you might consider the job for less than the $6,000 that Reagan\nallowed.\n\nPhillip Allen\n713-853-7041\n\n\n\n\n\n\n\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/29/2001\n09:10 AM ---------------------------\n\n\nHunter S Shively\n03/26/2001 10:01 AM\n\nTo:   phillip.k.allen@enron.com\ncc:\nSubject:\n\n(See attached file: F828FA00.PDF)\n\n\n - F828FA00.PDF\n",
+    "thread_id": "T-0041"
+  },
+  {
+    "message_id": "<18104010.1075855725437.JavaMail.evans@thyme>",
+    "date": "Mon, 26 Mar 2001 09:05:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "mary.gray@enron.com",
+    "subject": "Re: NGI access to eol",
+    "body": "Grif,\n\nPlease provide a temporary id\n\nPhillip\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/26/2001 \n05:04 PM ---------------------------\n\n\nDexter Steis <dexter@intelligencepress.com> on 03/26/2001 02:22:41 PM\nTo: Phillip.K.Allen@enron.com\ncc:  \nSubject: Re: NGI access to eol\n\n\nHi Phillip,\n\nIt's that time of month again, if you could be so kind.\n\nThanks,\n\nDexter\n\n*****************************\nDexter Steis\nExecutive Publisher\nIntelligence Press, Inc.\n22648 Glenn Drive Suite 305\nSterling, VA 20164\ntel: (703) 318-8848\nfax: (703) 318-0597\nhttp://intelligencepress.com\nhttp://www.gasmart.com\n******************************\n\n\nAt 09:57 AM 1/26/01 -0600, you wrote:\n\n>Dexter,\n>\n>You should receive a guest id shortly.\n>\n>Phillip\n\n",
+    "thread_id": "T-0042"
+  },
+  {
+    "message_id": "<25454828.1075855728165.JavaMail.evans@thyme>",
+    "date": "Fri, 26 Jan 2001 01:57:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "dexter@intelligencepress.com",
+    "subject": "Re: NGI access to eol",
+    "body": "Dexter,\n\nYou should receive a guest id shortly.\n\nPhillip",
+    "thread_id": "T-0042"
+  },
+  {
+    "message_id": "<28897001.1075855725609.JavaMail.evans@thyme>",
+    "date": "Sun, 25 Mar 2001 23:03:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "llewter@austin.rr.com",
+    "subject": "Re: Buyout",
+    "body": "Larry,\n\nJacques has been working with Claudia.  I will check his progress this \nmorning and let you know.\n\nPhillip",
+    "thread_id": "T-0043"
+  },
+  {
+    "message_id": "<29628244.1075855725718.JavaMail.evans@thyme>",
+    "date": "Mon, 19 Mar 2001 00:45:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "llewter@austin.rr.com",
+    "subject": "Re: Buyout",
+    "body": "Larrry,\n\nI realize you are disappointed about the project.  It is not my desire for \nyou to be left with out of pocket expenses.  The only item from your list \nthat I need further \nclarification is the $15,000 worth of extensions.  You mentioned that this \nwas applied to the cost of the land and it actually represents your cash \ninvestment in the land.  I agree that you should be refunded any cash \ninvestment.  My only request is that you help me locate this amount on the \nclosing statement or on some other document.\n\nPhillip",
+    "thread_id": "T-0043"
+  },
+  {
+    "message_id": "<1710393.1075855725934.JavaMail.evans@thyme>",
+    "date": "Wed, 14 Mar 2001 08:02:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "Bishops Corner, Ltd. Buyout",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/14/2001 \n04:02 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 03/13/2001 11:29:49 PM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>, \"Keith Holst\" <kholst@enron.com>\ncc: \"Larry Lewter\" <LLEWTER@austin.rr.com>, \"Claudia L. Crocker\" \n<clclegal2@aol.com> \nSubject: Bishops Corner, Ltd. Buyout\n\n\n\n\n[IMAGE][IMAGE]??????????? ??????????? \n\n\n \n\n8511 Horseshoe Ledge, Austin, TX? 78730-2840\n\nTelephone (512) 338-1119? Fax(512)338-1103\nE-Mail? cbpres@austin.rr.com\n\n?\n\n\n?\n\n?\n\n?\n\nMarch 13, 2001? \n\nPhillip Allen\n\nKeith Holst\n\nENRON\n\n1400 Smith Street\n\nHouston, TX? 77002-7361\n\nSubject: Bishops Corner, Ltd. -- Restructure or Buyout\n\nDear Phillip and Keith: \n\nWe are prepared to sell Bishops Corner, Ltd. for reimbursement of our cash \nexpenditures; compensation for our management services and your assumption of \nall note obligations and design contracts.? \n\nAs shown on the attached summary table, cash expenditures total $21,196 and \nexisting contracts to the architect, civil engineer, soils testing company, \nand appraisal total $67,050.? The due on these contracts is $61,175, of which \ncurrent unpaid invoices due total $37,325.\n\nActing in good faith, we have invested an enormous amount of time into this \nproject for more than five months and have completed most of the major design \nand other pre-construction elements.? As it is a major project for a firm of \nour size, it was given top priority with other projects being delayed or \nrejected, and we are now left with no project to pursue.? \n\nTwo methods for valuing this development management are 1) based on a \npercentage of the minimum $1.4MM fee we were to have earned and 2) based on \nyour prior valuation of our time.? For the first, we feel that at least 25%, \nor $350,000, of the minimum $1.4MM fee has been earned to date.? For the \nsecond, in your prior correspondence you valued our time at $500,000 per \nyear, which would mean this period was worth $208,333.? Either of these \nvaluations seem quite fair and reasonable, especially as neither includes the \nforfeit of our 40% interest in the project worth $0.8--$1.2MM. ?However, in \nthe hope that we can maintain a good relationship with the prospect of future \nprojects, we are willing to accept only a small monthly fee of $15,000 per \nmonth to cover a portion of our direct time and overhead.? As shown in the \nattached table, this fee, plus cash outlays and less accrued interest brings \nthe total net buyout to $78,946.? \n\nWe still believe that this project needs the professional services that we \noffer and have provided.? However, if you accept the terms of this buyout \noffer, which we truly feel is quite fair and reasonable, then, we are \nprepared to be bought out and leave this extraordinary project to you both.? \nIf this is your \n\n\n\nchoice, either contact us, or have your attorney contact our attorney, \nClaudia Crocker, no later than Friday of this week.? The attorneys can then \ndraft whatever minimal documents are necessary for the transfer of the \nBishops Corner, Ltd. Partnership to you following receipt of the buyout \namount and assumption of the outstanding professional design contracts.\n\nThank you.\n\n?\n\nSincerely,\n\n[IMAGE]\n\n?\n\n?\n\n?\n\nGeorge W. Richards \n\nPresident\n\nP.S.????? Copies of contracts will be forwarded upon acceptance of buyout.\n\n?\n\ncc:??????? Larry Lewter\n??????????? Claudia Crocker\n - image001.wmz\n - image002.gif\n - image003.png\n - image004.gif\n - header.htm\n - oledata.mso\n - Restructure Buyout.xls\n",
+    "thread_id": "T-0044"
+  },
+  {
+    "message_id": "<10842131.1075855726025.JavaMail.evans@thyme>",
+    "date": "Wed, 14 Mar 2001 03:25:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jacquestc@aol.com",
+    "subject": "Bishops Corner, Ltd. Buyout",
+    "body": "Jacques,\n\nGeorge finally sent me some information.  Please look over his email.  He \nwants us to buy him out.  Keith and I think this is a joke.  \n\nWe still need to speak to his engineer and find out about his soil study to \ndetermine if it has any value going forward.  I don't believe the architect \nwork will be of any use to us.  I don't think they deserve any compensation \nfor their time due to the fact that intentional or not the project they were \nproposing was unsupportable by the market.  \n\nMy version of a buyout is attached.\n\nI need your expert advise.  I am ready to offer my version or threaten to \nforeclose.  Do they have a case that they are due money for their time?  \nSince their cost\nand fees didn't hold up versus the market and we didn't execute a contract, I \nwouldn't think they would stand a chance.  There isn't any time to waste so I \nwant to respond to their offer asap.\n\nCall me with your thoughts.\n\nPhillip\n\n\n\n\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/14/2001 \n08:36 AM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 03/13/2001 11:29:49 PM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>, \"Keith Holst\" <kholst@enron.com>\ncc: \"Larry Lewter\" <LLEWTER@austin.rr.com>, \"Claudia L. Crocker\" \n<clclegal2@aol.com> \nSubject: Bishops Corner, Ltd. Buyout\n\n\n\n\n[IMAGE][IMAGE]??????????? ??????????? \n\n\n \n\n8511 Horseshoe Ledge, Austin, TX? 78730-2840\n\nTelephone (512) 338-1119? Fax(512)338-1103\nE-Mail? cbpres@austin.rr.com\n\n?\n\n\n?\n\n?\n\n?\n\nMarch 13, 2001? \n\nPhillip Allen\n\nKeith Holst\n\nENRON\n\n1400 Smith Street\n\nHouston, TX? 77002-7361\n\nSubject: Bishops Corner, Ltd. -- Restructure or Buyout\n\nDear Phillip and Keith: \n\nWe are prepared to sell Bishops Corner, Ltd. for reimbursement of our cash \nexpenditures; compensation for our management services and your assumption of \nall note obligations and design contracts.? \n\nAs shown on the attached summary table, cash expenditures total $21,196 and \nexisting contracts to the architect, civil engineer, soils testing company, \nand appraisal total $67,050.? The due on these contracts is $61,175, of which \ncurrent unpaid invoices due total $37,325.\n\nActing in good faith, we have invested an enormous amount of time into this \nproject for more than five months and have completed most of the major design \nand other pre-construction elements.? As it is a major project for a firm of \nour size, it was given top priority with other projects being delayed or \nrejected, and we are now left with no project to pursue.? \n\nTwo methods for valuing this development management are 1) based on a \npercentage of the minimum $1.4MM fee we were to have earned and 2) based on \nyour prior valuation of our time.? For the first, we feel that at least 25%, \nor $350,000, of the minimum $1.4MM fee has been earned to date.? For the \nsecond, in your prior correspondence you valued our time at $500,000 per \nyear, which would mean this period was worth $208,333.? Either of these \nvaluations seem quite fair and reasonable, especially as neither includes the \nforfeit of our 40% interest in the project worth $0.8--$1.2MM. ?However, in \nthe hope that we can maintain a good relationship with the prospect of future \nprojects, we are willing to accept only a small monthly fee of $15,000 per \nmonth to cover a portion of our direct time and overhead.? As shown in the \nattached table, this fee, plus cash outlays and less accrued interest brings \nthe total net buyout to $78,946.? \n\nWe still believe that this project needs the professional services that we \noffer and have provided.? However, if you accept the terms of this buyout \noffer, which we truly feel is quite fair and reasonable, then, we are \nprepared to be bought out and leave this extraordinary project to you both.? \nIf this is your \n\n\n\nchoice, either contact us, or have your attorney contact our attorney, \nClaudia Crocker, no later than Friday of this week.? The attorneys can then \ndraft whatever minimal documents are necessary for the transfer of the \nBishops Corner, Ltd. Partnership to you following receipt of the buyout \namount and assumption of the outstanding professional design contracts.\n\nThank you.\n\n?\n\nSincerely,\n\n[IMAGE]\n\n?\n\n?\n\n?\n\nGeorge W. Richards \n\nPresident\n\nP.S.????? Copies of contracts will be forwarded upon acceptance of buyout.\n\n?\n\ncc:??????? Larry Lewter\n??????????? Claudia Crocker\n - image001.wmz\n - image002.gif\n - image003.png\n - image004.gif\n - header.htm\n - oledata.mso\n - Restructure Buyout.xls\n",
+    "thread_id": "T-0044"
+  },
+  {
+    "message_id": "<12388612.1075855726677.JavaMail.evans@thyme>",
+    "date": "Wed, 21 Feb 2001 08:26:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "pallen70@hotmail.com",
+    "subject": "SM134 Proforma2.xls",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/21/2001 \n04:25 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 02/21/2001 06:32:15 AM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <LLEWTER@austin.rr.com> \nSubject: SM134 Proforma2.xls\n\n\nThere have been some updates to the cost.  The principal change is in the\naddition of masonry on the front of the buildings, which I estimate will\ncosts at least $84,000 additional.  Also, the trim material and labor costs\nhave been increased.  I still believe that the total cost is more than\nsufficient, but there will be additional updates.\n\nThe manager's unit is columns J-L, but the total is not included in the B&N\ntotal of rentable units.  Rather, the total cost for the manager's unit and\noffice is included as a lump sum under amenities.  I may add this back in as\na rentable unit and delete is as an amenity.\n\nThe financing cost has been changed in that the cost of the permanent\nmortgage has been deleted because we will not need to obtain this for the\nconstruction loan approval, therefore, its cost will be absorbed when this\nloan is obtained.\n\nBased on either a loan equal to 75% of value or 80% of cost, the\nconstruction profit should cover any equity required beyond the land.\n\nGeorge W. Richards\nCreekside Builders, LLC\n\n\n - SM134 Proforma2.xls\n",
+    "thread_id": "T-0045"
+  },
+  {
+    "message_id": "<11136284.1075855726786.JavaMail.evans@thyme>",
+    "date": "Wed, 21 Feb 2001 07:31:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "keith.holst@enron.com",
+    "subject": "SM134 Proforma2.xls",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/21/2001 \n03:30 PM ---------------------------\n\n\n\"George Richards\" <cbpres@austin.rr.com> on 02/21/2001 06:32:15 AM\nPlease respond to <cbpres@austin.rr.com>\nTo: \"Phillip Allen\" <pallen@enron.com>\ncc: \"Larry Lewter\" <LLEWTER@austin.rr.com> \nSubject: SM134 Proforma2.xls\n\n\nThere have been some updates to the cost.  The principal change is in the\naddition of masonry on the front of the buildings, which I estimate will\ncosts at least $84,000 additional.  Also, the trim material and labor costs\nhave been increased.  I still believe that the total cost is more than\nsufficient, but there will be additional updates.\n\nThe manager's unit is columns J-L, but the total is not included in the B&N\ntotal of rentable units.  Rather, the total cost for the manager's unit and\noffice is included as a lump sum under amenities.  I may add this back in as\na rentable unit and delete is as an amenity.\n\nThe financing cost has been changed in that the cost of the permanent\nmortgage has been deleted because we will not need to obtain this for the\nconstruction loan approval, therefore, its cost will be absorbed when this\nloan is obtained.\n\nBased on either a loan equal to 75% of value or 80% of cost, the\nconstruction profit should cover any equity required beyond the land.\n\nGeorge W. Richards\nCreekside Builders, LLC\n\n\n - SM134 Proforma2.xls\n",
+    "thread_id": "T-0045"
+  },
+  {
+    "message_id": "<22019695.1075855726850.JavaMail.evans@thyme>",
+    "date": "Tue, 20 Feb 2001 23:04:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jacquestc@aol.com",
+    "subject": "Re: General Issues",
+    "body": "That would we very helpful.  \n\nThanks,\n\nPhillip",
+    "thread_id": "T-0046"
+  },
+  {
+    "message_id": "<4001637.1075855726936.JavaMail.evans@thyme>",
+    "date": "Tue, 20 Feb 2001 01:38:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jacquestc@aol.com",
+    "subject": "Re: General Issues",
+    "body": "Jaques,\n\nAfter meeting with George and Larry, it was clear that we have different \ndefinitions of cost and profit.  Their version includes the salary of a \nsuperintendent and a junior superintendent as hard costs equivalent to third \nparty subs and materials.  Then there is a layer of \"construction management\" \nfees of 10%.  There are some small incidental cost that they listed would be \npaid out of this money.  But I think the majority of it is profit.  Finally \nthe builders profit of 1.4 million.\n\nKeith and I were not sure whether we would be open to paying the supers out \nof the cost or having them be paid out of the builders profit.  After all, if \nthey are the builders why does there need to be two additional supervisors?  \nWe were definitely not intending to insert an additional 10% fee in addition \nto the superintendent costs.  George claims that all of these costs have been \nin the cost estimates that we have been using.  I reviewed the estimates and \nthe superintendents are listed but I don't think the construction management \nfee is included.\n\nGeorge gave me some contracts that show how these fees are standard.  I will \nreview and let you know what I think.\n\nThe GP issues don't seem to be a point of contention.  They are agreeable to \nthe 3 out 4 approval process.\n\nLet me know if you have opinions or sources that I can use to push for  only \ntrue costs + 1.4 million.\n\nPhillip\n",
+    "thread_id": "T-0046"
+  },
+  {
+    "message_id": "<25264262.1075855727610.JavaMail.evans@thyme>",
+    "date": "Mon, 5 Feb 2001 00:45:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "mike.grigsby@enron.com",
+    "subject": "re: book admin for Pipe/Gas daily option book",
+    "body": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/05/2001 \n08:45 AM ---------------------------\n\n\nJeffrey C Gossett\n02/02/2001 09:48 PM\nTo: Larry May/Corp/Enron@ENRON, Phillip K Allen/HOU/ECT@ECT\ncc:  \nSubject: re: book admin for Pipe/Gas daily option book  \n\nWhen we meet,  I would like to address the following issues:\n\n1.)  I had at least 5 people here past midnight on both nights and I have \nseveral people who have not left before 10:30 this week. \n2.)  It is my understanding that Susan was still booking new day deals on \nThursday night at 8:30 b/c she did not get deal tickets from the trading \nfloor until after 5:00 p.m.\n3.)  It is also my understanding that Susan is done with the p&l and \nbenchmark part of her book often times by 6:00,  but that what keeps her here \nlate is usually running numerous extra models and spreadsheets.  (One \nsuggestion might be a permanent IT person on this book.)  (This was also my \nunderstanding from Kyle Etter,  who has left the company.)\n\nI would like to get this resolved as soon as possible so that Larry can get \nthe information that he needs to be effective and so that we can run books \nlike this and not lose good people.\n\nThanks\n\n\n\n\nLarry May@ENRON\n02/02/2001 02:43 PM\nTo: Sally Beck/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Susan M \nScott/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON\ncc: Phillip K Allen/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT \nSubject: re: book admin for Pipe/Gas daily option book\n\nAs you might be aware,  Susan Scott (the book admin for the pipe option book) \nwas forced by system problems to stay all night Wednesday night and until 200 \nam Friday  in order to calc my book.  While she is scheduled to rotate to the \nWest desk soon,  I think we need to discuss putting two persons on my book in \norder to bring the work load to a sustainable level.  I'd like to meet at \n2:30 pm on Monday to discuss this issue.  Please let me know if this time \nfits in your schedules.\n\nThanks,\n\nLarry\n\n\n\n",
+    "thread_id": "T-0047"
+  },
+  {
+    "message_id": "<10803333.1075855727698.JavaMail.evans@thyme>",
+    "date": "Fri, 2 Feb 2001 07:00:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "ina.rangel@enron.com",
+    "subject": "re: book admin for Pipe/Gas daily option book",
+    "body": "I would like to go to this meeting.  Can you arrange it?\n\n\n---------------------- Forwarded by Phillip K Allen/HOU/ECT on 02/02/2001 \n03:00 PM ---------------------------\n\n\nLarry May@ENRON\n02/02/2001 12:43 PM\nTo: Sally Beck/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Susan M \nScott/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON\ncc: Phillip K Allen/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT \nSubject: re: book admin for Pipe/Gas daily option book\n\nAs you might be aware,  Susan Scott (the book admin for the pipe option book) \nwas forced by system problems to stay all night Wednesday night and until 200 \nam Friday  in order to calc my book.  While she is scheduled to rotate to the \nWest desk soon,  I think we need to discuss putting two persons on my book in \norder to bring the work load to a sustainable level.  I'd like to meet at \n2:30 pm on Monday to discuss this issue.  Please let me know if this time \nfits in your schedules.\n\nThanks,\n\nLarry\n",
+    "thread_id": "T-0047"
+  },
+  {
+    "message_id": "<19028195.1075855727784.JavaMail.evans@thyme>",
+    "date": "Thu, 1 Feb 2001 04:03:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jeff.richter@enron.com",
+    "subject": "Re: web site",
+    "body": "8500?????  That's twice as valuable as your car!  Can't you get a used one \nfor $3000?",
+    "thread_id": "T-0048"
+  },
+  {
+    "message_id": "<33141543.1075855727805.JavaMail.evans@thyme>",
+    "date": "Thu, 1 Feb 2001 03:07:00 -0800 (PST)",
+    "from": "phillip.allen@enron.com",
+    "to": "jeff.richter@enron.com",
+    "subject": "Re: web site",
+    "body": "Nice.  how much?\n\nAre you trying to keep the economy going?",
+    "thread_id": "T-0048"
+  }
+]

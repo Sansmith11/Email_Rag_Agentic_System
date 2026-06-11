@@ -1,0 +1,10 @@
+pandas
+fastapi
+uvicorn
+pydantic
+rank-bm25
+langgraph
+langchain-core
+pymupdf
+streamlit
+python-dotenv
